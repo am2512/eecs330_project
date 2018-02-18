@@ -4,117 +4,77 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>A Pen by  john</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Log a Task</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<div class ="headerbar">
-    <button class="headerbutton">Log A Task</button>
-    <button class="headerbutton">View Activities</button>
-    <button class="headerbutton">View Analytics</button>
-    <button class="headerbutton">Settings</button>
-</div>
 
-<div class="grid-container">
-    <div class="item1">Pick a category:</div>
-    <div class="item2">
-        <div class="dropdown">
-            <input type="text" id="question1Input" name="lname" class="inputField">
-            <button onclick="myFunction()" class="dropbtn">&#11015;</button>
-            <div id="myDropdown" class="dropdown-content">
-                <a href="#" onclick="setInput(this.id)" id="Fitness" >Fitness</a>
-                <a href="#" onclick="setInput(this.id)" id="Study">Study</a>
-                <a href="#" onclick="setInput(this.id)" id="Social">Social</a>
-                <a href="#" >Add a Category</a>
-            </div>
-        </div>
-    </div>
-    <div class="item3">How do you feel after this activity?</div> 
-    <div class="item4">
-        <div id="slidercontainer">
-            <input type="range" min="0" max="10" value="5" class="slider" id="myRange">
-            <p id="scale"><span id="demo"></span></p>
-        </div>
-    </div>
-    <div class="item5">How long did you spend on this activity?</div>
-    <div class="item6">
-        <input id="duration-val" value="00:00">
-    </div>
-    <div class="item7">
+	<div class ="headerbar">
+		<button class="headerbutton">Log A Task</button>
+		<button class="headerbutton">View Activities</button>
+		<button class="headerbutton">View Analytics</button>
+		<button class="headerbutton">Settings</button>
+	</div>
+
+	<div class="grid-container">
+		<div class="item1">
+			<p>Pick a category:</p>
+		</div>
+		
+		<div class="item2">
+			<div class="dropdown">
+				<input type="text" id="question1Input" name="lname" class="inputField">
+				<button onclick="myFunction()" class="dropbtn">&#11015;</button>
+				<div id="myDropdown" class="dropdown-content">
+					<a href="#" onclick="setInput(this.id)" id="Fitness" >Fitness</a>
+					<a href="#" onclick="setInput(this.id)" id="Study">Study</a>
+					<a href="#" onclick="setInput(this.id)" id="Social">Social</a>
+					<a href="#" >Add a Category</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="item3">
+			<p>How do you feel after this activity?</p>
+		</div> 
+		
+		<div class="item4">
+			<p class="badSlider">Bad</p>
+			<div id="slidercontainer" class="slidercontainer" >
+				<input type="range" min="0" max="10" value="5" class="slider" id="myRange">
+				<!-- <p id="scale"><span id="demo"></span></p> -->
+			<p class="goodSlider">Good</p>
+			</div>
+		</div>
+		
+		<div class="item5">
+			<p>How long did you spend on this activity?</p>
+		</div>
+		
+		<div class="item6">
+			<input id="duration-val" value="00:00">
+		</div>
+		
+		<div class="item7">
             Let us know a bit about your emotions:
-            <div id="buttonbox">
-                <button class="badcolor">Stressed</button>
+            <div class="buttonbox">
+                <button class="badcolor">Frustrated</button>
                 <button class="badcolor">Angry</button>
-                <button class="goodcolor">Calm</button>
+                <button class="badcolor">Exhausted</button>
+                <button class="goodcolor">Relaxed</button>
                 <button class="goodcolor"> Cheerful</button>
+                <button class="goodcolor">Calm</button>
             </div>
-    </div>
-    <div class="item8">
-        <button class="submitbutton">Submit</button>
-    </div> 
-</div>
+		</div>
+		
+		<div class="item8">
+			<button class="submitbutton">
+				<a href="index.html"></a>
+				Submit
+			</button>
+		</div> 
+	</div>
 
-            <div class="description">
-                <div id="p1"><p>Calm</p></div>
-                <div id = "p2"><p>Stressed</p></div> 
-            </div>
-<div class="wrapper">
-    <div class="prompt">Pick a category:</div>
-</div>
-<div id="dropholder">
-    <div id="holder">
-        <div class="dropdown">
-            <input type="text" id="question1Input" name="lname" class="inputField">
-            <button onclick="myFunction()" class="dropbtn">&#11015;</button>
-            <div id="myDropdown" class="dropdown-content">
-                <a href="#" onclick="setInput(this.id)" id="Fitness" >Fitness</a>
-                <a href="#" onclick="setInput(this.id)" id="Study">Study</a>
-                <a href="#" onclick="setInput(this.id)" id="Social">Social</a>
-                <a href="#" >Add a Category</a>
-            </div>
-        </div>
-   <script src="dan.js"></script>
-</div>
-
-   <div id="box">
-
-  <div id="textbox"><p>How do you feel after this activity? </p></div>
-  
-  
-<div id="slidercontainer">
-         <input type="range" min="0" max="10" value="5" class="slider" id="myRange">
-  <p id="scale"><span id="demo"></span></p>
-  
-    </div>
-  
-<div class="description">
-  <div id="p1"><p>Calm</p></div>
-  <div id = "p2"><p>Stressed</p></div> 
-</div>
-
-  </div>
-
-<div id="duration-div">
-    <p id="duration-ask">How long did you spend on this activity?</p>
-    <input id="duration-val" value="00:00">
-</div>
-
-<div id="mood-div">
-        <div>
-    <p id="mood-ask">Feel free to use a few tags to decribe your emotions.</p> 
-        </div>
-    <div id="buttonbox">
-        <button class="badcolor">Stressed</button>
-        <button class="badcolor">Angry</button>
-        <button class="goodcolor">Calm</button>
-        <button class="goodcolor"> Cheerful</button>
-    </div>
-</div>
-
-<button class="submitbutton">Submit</button>
-<script  src="js/index.js"></script>
-
-</div>
 </body>
 </html>
