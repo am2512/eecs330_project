@@ -4,6 +4,8 @@ body {
 
 /*begin */
 
+/*##item1*/
+
 .Two-item1{
   grid-column-start: 1;
   grid-column-end: 4;
@@ -12,7 +14,6 @@ body {
 }
 
 .headActivitiesButtons {
-
 }
 
 .headActivitiesButton {
@@ -46,6 +47,37 @@ body {
     border-radius: 4px;
     /*box-shadow: 5px 10px #855dc2;  */
 }
+
+/*item2*/
+.Two-item2 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+#Twoslider {
+    width: 75%;
+
+}
+
+.sliderText{
+    width: 25%;
+    display:inline-block;
+    margin-bottom: -50px;
+}
+
+#day {
+    text-align: left;
+}
+
+#week {
+    text-align: center;
+}
+
+#month {
+    text-align: right;s
+}
+
+/*item
 /* I'm organizing our CSS */
 
 /* Header */
