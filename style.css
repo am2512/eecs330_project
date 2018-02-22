@@ -2,13 +2,55 @@ body {
     font-family: 'Kalam', cursive;
 }
 
+/*begin */
 
+.Two-item1{
+  grid-column-start: 1;
+  grid-column-end: 4;
+/*  display: flex;
+  justify-content: center;*/
+}
+
+.headActivitiesButtons {
+
+}
+
+.headActivitiesButton {
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    height: 50%;
+    width: 20%;
+    margin: 25px 2.25% 0px 2.25%;
+    padding: 0px 0% 0px 0%;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    /*border: 0px;*/
+    color: black;
+    background-color: gray;
+    /*background-color: #A5F9FF;*/
+    border-radius: 4px;
+}
+
+.activitiesButton {
+    height: 50%;
+    width: 20%;
+    margin: 25px 2.25% 0px 2.25%;
+    padding: 0px 0% 0px 0%;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    /*border: 0px;*/
+    color: black;
+    background-color: red;
+    /*background-color: #A5F9FF;*/
+    border-radius: 4px;
+    /*box-shadow: 5px 10px #855dc2;  */
+}
 /* I'm organizing our CSS */
 
 /* Header */
 
 .headerbar {
-
     background-color: #CFBAFC;
     width: 100%;
     height: 100px;
