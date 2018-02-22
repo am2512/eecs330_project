@@ -40,7 +40,6 @@ function setActive(id) {
 
 }
 
-
 function myFunction() {
     console.log('as');
     document.getElementById("myDropdown").classList.toggle("show");

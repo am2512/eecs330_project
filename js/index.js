@@ -25,3 +25,22 @@ window.onclick = function(event) {
 function setInput(id) {
   document.getElementById("question1Input").value = id
 }
+
+function submitTask() {
+  alert("Task Successfully Logged");
+  resetInputs();
+}
+
+function resetInputs() {
+  document.getElementById("question1Input").value = ""
+  document.getElementById("myRange").value = 5
+  document.getElementById("duration-val").value = "00:00"
+  // This can probably be improved by using the .activitiesButton.color attribute
+  // set in style.css, rather than the magic value #ccffff, but I don't know
+  // how to do that yet
+  document.getElementById("button1").style.backgroundColor = "#ccffff"
+  document.getElementById("button2").style.backgroundColor = "#ccffff"
+  document.getElementById("button3").style.backgroundColor = "#ccffff"
+  document.getElementById("button4").style.backgroundColor = "#ccffff"
+  document.getElementById("button5").style.backgroundColor = "#ccffff"
+}
