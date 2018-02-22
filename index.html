@@ -11,7 +11,7 @@
 <body>
 
 	<div class ="headerbar">
-		<button class="headerbutton">Log A Task</button>
+		<button class="selectedheaderbutton">Log A Task</button>
 		<button class="headerbutton">View Activities</button>
 		<button class="headerbutton">View Analytics</button>
 		<button class="headerbutton">Settings</button>
@@ -19,7 +19,7 @@
 
 	<div class="grid-container">
 		<div class="item1">
-			<p>Pick a category:</p>
+			<p>Select a task:</p>
 		</div>
 		
 		<div class="item2">
@@ -27,9 +27,11 @@
 				<input type="text" id="question1Input" name="lname" class="inputField">
 				<button onclick="myFunction()" class="dropbtn">&#11015;</button>
 				<div id="myDropdown" class="dropdown-content">
-					<a href="#" onclick="setInput(this.id)" id="Fitness" >Fitness</a>
-					<a href="#" onclick="setInput(this.id)" id="Study">Study</a>
-					<a href="#" onclick="setInput(this.id)" id="Social">Social</a>
+					<a href="#" onclick="setInput(this.id)" id="Fitness" >Golfing</a>
+					<a href="#" onclick="setInput(this.id)" id="Study">Working Out</a>
+					<a href="#" onclick="setInput(this.id)" id="Social">Playing Piano</a>
+					<a href="#" onclick="setInput(this.id)" id="Social">Meditation</a>
+					<a href="#" onclick="setInput(this.id)" id="Social">Homework</a>
 					<a href="#" >Add a Category</a>
 				</div>
 			</div>
@@ -59,12 +61,14 @@
 		<div class="item7">
             Let us know a bit about your emotions:
             <div class="buttonbox">
-                <button class="badcolor">Frustrated</button>
-                <button class="badcolor">Angry</button>
-                <button class="badcolor">Exhausted</button>
-                <button class="goodcolor">Relaxed</button>
-                <button class="goodcolor"> Cheerful</button>
-                <button class="goodcolor">Calm</button>
+            <button data-button="0" onclick="setActive(this.id)" id="button1" class="activitiesButton">Frustrated</button>
+            <button data-button="0" onclick="setActive(this.id)" id="button2" class="activitiesButton">Angry</button>
+            <button data-button="0" onclick="setActive(this.id)" id="button3" class="activitiesButton">Exhausted</button>
+            <button data-button="0" onclick="setActive(this.id)" id="button4" class="activitiesButton">Cheerful</button>
+            <button data-button="0" onclick="setActive(this.id)" id="button5" class="activitiesButton">Calm</button>
+
+
+              
             </div>
 		</div>
 		
@@ -77,6 +81,8 @@
 	</div>
 
 	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/part2.js"></script>
+
 
 </body>
 </html>
