@@ -53,28 +53,28 @@
 
 				        var chartData = [
 				            {
-				                "country": "USA",
-				                "visits": 3025,
+				                "country": "Fitness",
+				                "visits": 3,
 				                "color": "#FF0F00"
 				            },
 				            {
-				                "country": "China",
-				                "visits": 1882,
+				                "country": "Social",
+				                "visits": 9,
 				                "color": "#FF6600"
 				            },
 				            {
-				                "country": "Japan",
-				                "visits": 1809,
+				                "country": "Study",
+				                "visits": 13,
 				                "color": "#FF9E01"
 				            },
 				            {
-				                "country": "Germany",
-				                "visits": 1322,
+				                "country": "Music",
+				                "visits": 8,
 				                "color": "#FCD202"
 				            },
 				            {
-				                "country": "Germany",
-				                "visits": 1322,
+				                "country": "Student Group",
+				                "visits": 4,
 				                "color": "#FCD202"
 				            }
 				        ];
@@ -99,7 +99,7 @@
 				            // value
 				            var valueAxis = new AmCharts.ValueAxis();
 				            valueAxis.dashLength = 5;
-				            valueAxis.title = "Visitors from country";
+				            valueAxis.title = "Time in hours";
 				            valueAxis.axisAlpha = 0;
 				            chart.addValueAxis(valueAxis);
 
@@ -140,36 +140,24 @@
 
 				       var chartData1 = [
 				           {
-				               "country": "United States",
-				               "visits": 9252
+				               "country": "Fitness",
+				               "visits": 3
 				           },
 				           {
-				               "country": "China",
-				               "visits": 1882
+				               "country": "Social",
+				               "visits": 9
 				           },
 				           {
-				               "country": "Japan",
-				               "visits": 1809
+				               "country": "Study",
+				               "visits": 13
 				           },
 				           {
-				               "country": "Germany",
-				               "visits": 1322
+				               "country": "Music",
+				               "visits": 8
 				           },
 				           {
-				               "country": "United Kingdom",
-				               "visits": 1122
-				           },
-				           {
-				               "country": "France",
-				               "visits": 1114
-				           },
-				           {
-				               "country": "India",
-				               "visits": 984
-				           },
-				           {
-				               "country": "Spain",
-				               "visits": 711
+				               "country": "Student Group",
+				               "visits": 4
 				           }
 				       ];
 
@@ -179,7 +167,7 @@
 				           chart1 = new AmCharts.AmPieChart();
 
 				           // title of the chart
-				           chart1.addTitle("Visitors countries", 16);
+				           chart1.addTitle("Percentage of time spent", 16);
 
 				           chart1.dataProvider = chartData1;
 				           chart1.titleField = "country";
@@ -359,9 +347,9 @@
 				               var newDate = new Date(firstDate);
 				               newDate.setDate(newDate.getDate() + i);
 
-				               var visits = Math.round(Math.random() * 40) + 100;
-				               var hits = Math.round(Math.random() * 80) + 500;
-				               var views = Math.round(Math.random() * 6000);
+				               var visits = Math.round(Math.random() * 4) + 100;
+				               var hits = Math.round(Math.random() * 8) + 500;
+				               var views = Math.round(Math.random() * 6);
 
 				               chartData2.push({
 				                   date: newDate,

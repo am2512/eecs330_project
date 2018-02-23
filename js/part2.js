@@ -66,3 +66,36 @@ window.onclick = function(event) {
 function setInput(id) {
   document.getElementById("question1Input").value = id
 }
+
+
+var slide = document.getElementById('Twoslider');
+slide.onchange = function() {
+  generateChartData();
+
+
+}
+
+
+function generateChartData() {
+                   var firstDate = new Date();
+                   firstDate.setDate(firstDate.getDate() - 50);
+
+                   for (var i = 0; i < 7; i++) {
+                       // we create date objects here. In your data, you can have date strings
+                       // and then set format of your dates using chart.dataDateFormat property,
+                       // however when possible, use date objects, as this will speed up chart rendering.
+                       var newDate = new Date(firstDate);
+                       newDate.setDate(newDate.getDate() + i);
+
+                       var visits = Math.round(Math.random() * 4) + 100;
+                       var hits = Math.round(Math.random() * 8) + 500;
+                       var views = Math.round(Math.random() * 6);
+
+                       chartData2.push({
+                           date: newDate,
+                           visits: visits,
+                           hits: hits,
+                           views: views
+                       });
+                   }
+               }
