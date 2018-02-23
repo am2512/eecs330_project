@@ -52,6 +52,19 @@ body {
 .Two-item2 {
   grid-column-start: 1;
   grid-column-end: 4;
+  
+}
+
+#chartdiv {
+    float:left;
+}
+
+#chartdiv1 {
+    float:left;
+}
+
+#chartdiv2 {
+    float:left;
 }
 
 #Twoslider {
