@@ -42,7 +42,7 @@ body {
     font-size: 30px;
     /*border: 0px;*/
     color: black;
-    background-color: red;
+    background-color: #4b83dd;
     /*background-color: #A5F9FF;*/
     border-radius: 4px;
     /*box-shadow: 5px 10px #855dc2;  */
@@ -55,16 +55,19 @@ body {
   
 }
 
-#chartdiv {
+#myChart {
     float:left;
+    padding-left: 20px;
 }
 
-#chartdiv1 {
+#myChart1 {
     float:left;
+    padding-left: 40px;
 }
 
-#chartdiv2 {
+#myChart2 {
     float:left;
+    padding-left: 40px;
 }
 
 #Twoslider {
@@ -205,42 +208,6 @@ body {
 	justify-content: center;
 }
 
-/*.dropbtn {
-    background-color: #3498DB;
-    color: white;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-	width: 10%;
-	display: flex;
-	justify-content: center;
-	align-self: center;
-	justify-content: center;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    margin-left:300px;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-.show {display:block;}*/
 
 /* item 3 */
 
@@ -387,138 +354,18 @@ body {
     box-shadow: 5px 10px #855dc2;
 }
 
+/* PIE CHART */
+svg {
+  /*filter: url('#dropshadow');*/
+}
+
+path {
+  cursor: pointer;
+  stroke: #ccc;
+  stroke-width: 0px;
+}
 
 /* General */
-
-
-
- /*JUNK 
-
-.wrapper {
-    display: grid;
-    grid-template-columns: 200px 100px;
-    grid-gap: 5px;
-    padding-top: 30px;
-}
-
-
-#holder {
-    margin-top:20px;
-    margin-left:500px;
-    background-color: #ffe5f3;
-    width:700px;
-    height:800px;
-}
-
-#dropholder {
-    float:left;
-}
-
-.inputField {
-    width: 100px;
-    height: 50px;
-    margin: 0px  0px 0px 0px;
-    padding: 0px  0px 0px 0px;
-    text-align:center;
-    margin-top: 50px;
-    margin-left:300px;
-}
-
-*/
-/* Change color of dropdown links on hover 
-.dropdown-content a:hover {background-color: #ddd}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) 
-
-
-#box {
-    height: 200px;
-    width: 900px;
-    margin: 10px 20px;
-    margin-left:-5px;
-    float:left;
-    padding-top:25px;
-}
-
-#textbox {
-    font-size:20px;
-    height: 40px;
-    width: 310px;
-    margin: 50px 25px;
-    float:left;
-}
-
-
-
-.description {
-    font-size:14px;
-    height: 40px;
-    width: 150px;
-    margin: 70px 2px;
-    padding-bottom:20px;
-    float:left;
-}
-
-#p1 {
-    color:green;
-    width:20px;
-    float:left;
-    padding-top:6px;
-    margin-left:-60px;
-}
-
-#p2 {
-    color:red;
-    width:20px;
-    float:left;
-    padding-top:6px;
-    padding-left:55px;
-}
-
-.prompt {
-    margin-top: 80px;
-    margin-left:525px;
-    float: left;
-    font-size:20px;
-}
-
-/* Duration 
-#duration-div {
-    margin-left:25px;
-}
-
-#duration-ask {
-    margin-top: -40px;
-	font-size:20px;
-}
-
-
-
-/* Mood 
-#mood-div {
-    margin-left: 25px;
-}
-
-#mood-ask {
-    margin-top: 210px;
-	font-size:20px;
-}
-
-
- /* idsjfoidsafoisoidfafddsf 
-
-
-
-/*
-  align-self: center
-  margin-top: 100px;
-
-
-.item3 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
 
 
 
