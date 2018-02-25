@@ -10,6 +10,7 @@ function setAll(id) {
   if (element.innerHTML == 'Select All') {
     elements = document.getElementsByClassName("activitiesButton")
     for (i = 0 ; i < elements.length ; i++) {
+      console.log('heythere');
       elements[i].style.backgroundColor = "yellow"
       elements[i].setAttribute('data-button', '7'); 
     }
