@@ -10,13 +10,13 @@ function setAll(id) {
   if (element.innerHTML == 'Select All') {
     elements = document.getElementsByClassName("activitiesButton")
     for (i = 0 ; i < elements.length ; i++) {
-      elements[i].style.backgroundColor = "#526b93"
+      elements[i].style.backgroundColor = "yellow"
       elements[i].setAttribute('data-button', '7'); 
     }
   } else {
     elements = document.getElementsByClassName("activitiesButton")
     for (i = 0 ; i < elements.length ; i++) {
-      elements[i].style.backgroundColor = "#4b83dd"  
+      elements[i].style.backgroundColor = "gray"  
       elements[i].setAttribute('data-button', '0'); 
     }
   }
@@ -30,10 +30,10 @@ function setActive(id) {
 
   console.log(data)
   if (data == "0") {
-    element.style.backgroundColor = "#526b93"
+    element.style.backgroundColor = "yellow"
     element.setAttribute('data-button', '7');
   } else {
-    element.style.backgroundColor = "#4b83dd"
+    element.style.backgroundColor = "gray"
     console.log('asf')
     element.setAttribute('data-button', '0');
   }
