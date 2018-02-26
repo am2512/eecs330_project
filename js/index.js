@@ -43,4 +43,5 @@ function resetInputs() {
   document.getElementById("button3").style.backgroundColor = "blue"
   document.getElementById("button4").style.backgroundColor = "blue"
   document.getElementById("button5").style.backgroundColor = "blue"
+  console.log('asdfa');
 }
