@@ -11,7 +11,7 @@ function setAll(id) {
     elements = document.getElementsByClassName("activitiesButton")
     for (i = 0 ; i < elements.length ; i++) {
       console.log('heythere');
-      elements[i].style.backgroundColor = "red"
+      elements[i].style.backgroundColor = "#e84563"
       elements[i].setAttribute('data-button', '7'); 
     }
   } else {
@@ -31,7 +31,7 @@ function setActive(id) {
 
   console.log(data)
   if (data == "0") {
-    element.style.backgroundColor = "red"
+    element.style.backgroundColor = "#e84563"
     element.setAttribute('data-button', '7');
   } else {
     element.style.backgroundColor = "blue"
