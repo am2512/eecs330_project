@@ -11,13 +11,13 @@ function setAll(id) {
     elements = document.getElementsByClassName("activitiesButton")
     for (i = 0 ; i < elements.length ; i++) {
       console.log('heythere');
-      elements[i].style.backgroundColor = "yellow"
+      elements[i].style.backgroundColor = "red"
       elements[i].setAttribute('data-button', '7'); 
     }
   } else {
     elements = document.getElementsByClassName("activitiesButton")
     for (i = 0 ; i < elements.length ; i++) {
-      elements[i].style.backgroundColor = "gray"  
+      elements[i].style.backgroundColor = "blue"  
       elements[i].setAttribute('data-button', '0'); 
     }
   }
@@ -31,10 +31,10 @@ function setActive(id) {
 
   console.log(data)
   if (data == "0") {
-    element.style.backgroundColor = "yellow"
+    element.style.backgroundColor = "red"
     element.setAttribute('data-button', '7');
   } else {
-    element.style.backgroundColor = "gray"
+    element.style.backgroundColor = "blue"
     console.log('asf')
     element.setAttribute('data-button', '0');
   }
