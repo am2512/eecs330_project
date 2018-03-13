@@ -260,18 +260,20 @@ body {
 /* Genreal Grid */
 
 .grid-container {
+  box-shadow: 10px 10px 5px grey;
   display: grid;
   font-family: 'Nunito', sans-serif;
   grid-template-columns: auto auto auto;
-  grid-gap: 10px;
+  grid-gap: 15px;
   background-color: #eee3ff;
   padding: 10px;
 }
 .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 10px 10px 5px grey;
   text-align: center;
   padding: 20px 0;
-  font-size: 35px;
+  font-size: 28px;
   text-shadow: 2px 2px #e6d8fc;
 }
 
