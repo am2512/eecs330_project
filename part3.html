@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>View Analytics</title>
+    <title>Log a Task</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -21,22 +21,27 @@
 	<div class="grid-container">
 
 		<div class="Three-item1">
-			<p> Your Stress Levels (on a scale of 1-10) from February 21st - 28th </p>
+			<p class="header3"> Your Stress Levels (on a scale of 1-10) from February 21st - 28th </p>
 			<p class="subheader3"> Move the slider to see recommendations for different dates</p>
 			<div class="backgroundColorSlider">
-				<input oninput="changeText()" width="1000" type="range" min="0" max="6" value="0" class="slider" id="Threeslider">
+				<input onchange="changeText()" width="1000" type="range" min="0" max="600" data-old-value="300" value="0" class="slider" step="25" id="Threeslider">
 			</div>
-			<img id="graphImage" height= "500" width="1050" src="part3images/graph3.jpg" alt="Mountain View">
+			<p id="yAxis" > Y axis: <br> Stress Level </p>
+			<img id="graphImage" height= "400" width="1050" src="part3images/graph3.jpg" alt="Mountain View">
+			<!-- <p id="dayOnBottom"> textasdf </p> -->
+			<p id="xAxis" > X axis: Day of the Week </p>
+
+			<p  class="displaySlider" id="part3DisplayBox"> On February 21st, you logged 3 hours of homework, and you seemed moderately stressed out. You didn’t seem to have much time for fun stuff - maybe you could try to fit in an hour at the gym to stress-bust?</p>
 
 		</div>
 
-		<div class="Two-item2">
+<!-- 		<div class="Two-item2">
 
 			<p id="dayOnBottom"> textasdf </p>
 			<p  class="displaySlider" id="part3DisplayBox"> On February 21st, you logged 3 hours of homework, and you seemed moderately stressed out. You didn’t seem to have much time for fun stuff - maybe you could try to fit in an hour at the gym to stress-bust?</p>
 			
 
-		</div>
+		</div> -->
 
 
 
