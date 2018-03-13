@@ -52,6 +52,12 @@ window.onclick = function(event) {
         openDropdown.classList.remove('show');
       }
     }
+    var x = document.getElementById("myRange");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
   }
 }
 
