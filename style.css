@@ -260,7 +260,7 @@ body {
 /* Genreal Grid */
 
 .grid-container {
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 3px #d2cfd4;
   display: grid;
   font-family: 'Nunito', sans-serif;
   grid-template-columns: auto auto auto;
