@@ -89,7 +89,7 @@ function submitTask() {
 }
 
 function resetInputs() {
-  document.getElementById("question1Input").value = ""
+  document.getElementById("question1Input").value = "Select an existing category or type in a new one"
   document.getElementById("myRange").value = 5
   document.getElementById("duration-val1").value = "00:00"
   document.getElementById("duration-val2").value = "00:00"
