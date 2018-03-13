@@ -1,5 +1,38 @@
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
+
+
+  // Set the configuration for your app
+  // TODO: Replace with your project's config object
+
+
+  
+  // var config = {
+  //   apiKey: "AIzaSyDF175I2udAhYekXlJVsGaR1cCZSaNuWpg",
+  //   authDomain: "dillo2018-727f2.firebaseapp.com",
+  //   databaseURL: "https://dillo2018-727f2.firebaseio.com",
+  //   projectId: "dillo2018-727f2",
+  //   storageBucket: "dillo2018-727f2.appspot.com",
+  //   messagingSenderId: "852271685973"
+  // };
+  // firebase.initializeApp(config);
+
+  // var database = firebase.database();
+
+  // firebase.database.ref().once("value").then(function(snapshot) {
+  //   console.log(snapshot.val())
+  // })
+
+
+
+
+
+
+
+
+
+
+// firebas is above
 function myFunction() {
     console.log('as');
     document.getElementById("myDropdown").classList.toggle("show");
@@ -27,14 +60,31 @@ function setInput(id) {
 }
 
 function submitTask() {
-  alert("Task Successfully Logged");
-  resetInputs();
+  var returnString = ''
+
+  var reHHMM = new RegExp("^([0-9]|0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$")
+  hhmm1 = document.getElementById("duration-val1").value
+  hhmm2 = document.getElementById("duration-val2").value
+  if (reHHMM.test(hhmm1) != true ) {
+    returnString = returnString + 'Poorly formatted duration input. Cannot log task. Change the input to succsefully log.\n'
+  }
+  if (reHHMM.test(hhmm2) != true ) {
+    returnString = returnString + 'Poorly formatted start time input. Cannot log task. Change the input to succsefully log.\n'
+  }
+
+  if (returnString == '') {
+    returnString = 'Task succsefully logged. Feel free to add another.'
+    resetInputs();
+  }
+
+  alert(returnString);
 }
 
 function resetInputs() {
   document.getElementById("question1Input").value = ""
   document.getElementById("myRange").value = 5
-  document.getElementById("duration-val").value = "00:00"
+  document.getElementById("duration-val1").value = "00:00"
+  document.getElementById("duration-val2").value = "00:00"
   // This can probably be improved by using the .activitiesButton.color attribute
   // set in style.css, rather than the magic value #ccffff, but I don't know
   // how to do that yet
