@@ -19,34 +19,62 @@ var textBoxDisplays=
 
 var days = ["February 21st","February 22nd","February 23rd", "February 24th","February 25th","February 26th","February 27th"]
 
-document.getElementById("Threeslider").value = 3
+document.getElementById("Threeslider").value = 300
+document.getElementById("Threeslider").dataset.oldvalue = 300
 document.getElementById("part3DisplayBox").innerHTML = textBoxDisplays[3]
 document.getElementById("dayOnBottom").innerHTML = days[3]
 
 function changeText() {
 	slider = document.getElementById("Threeslider")
-	// disiaply = document.getElementById("part3DisaplyBox")
-	value = slider.value
-	console.log(value)
-	console.log(typeof value)
+	value = parseInt(slider.value)
+	oldValue = slider.dataset.oldvalue
+
+	if (value>=oldValue) {
+		if (value - oldValue < 100) {
+			value = value + 100
+			gl = -1
+		} else {
+			if (value % 100 > 50) {
+				gl = 1
+			} else {
+				gl = -1
+			}
+		}
+		
+	} else {
+		if (oldValue - value < 100) {
+			value = value - 100
+			gl = 1
+		} else {
+			if (value % 100 > 50) {
+				gl = 1
+			} else {
+				gl = -1
+			}
+		}	
+	}
+
+	while (value % 100 != 0) {
+		value = value + gl
+	}
+	
+	// WE MIGHT NEED THIS DEPENGIND ON HOW IT LOOKS ON AHALYA'S
+	// if (value == 100) {
+	// 	document.getElementById("Threeslider").value = value
+	// } else if (value == 400){
+	// 	document.getElementById("Threeslider").value = value+3
+	// } else if (value == 500){
+	// 	document.getElementById("Threeslider").value = value+5
+	// } else {
+	// 	document.getElementById("Threeslider").value = value
+	// }
+	document.getElementById("Threeslider").value = value
+	document.getElementById("Threeslider").dataset.oldvalue = value
+	value = ( value / 100 ).toString()
 	document.getElementById("part3DisplayBox").innerHTML = textBoxDisplays[value]
 	document.getElementById('graphImage').src= "part3images/graph" + value + ".jpg"
 	document.getElementById("dayOnBottom").innerHTML = days[value]
-	// if (value < 1 ){
-	// 	document.getElementById("part3DisplayBox").innerHTML = textBoxDisplays[0]
-	// } else if (value < 2 ){
-	// 	document.getElementById("part3DisplayBox").innerHTML  = textBoxDisplays[1]
-	// } else if (value < 4) {
-	// 	document.getElementById("part3DisplayBox").innerHTML  = textBoxDisplays[2]
-	// } else if (value < 6 ){
-	// 	document.getElementById("part3DisplayBox").innerHTML  = textBoxDisplays[3]
-	// } else if (value < 8){
-	// 	document.getElementById("part3DisplayBox").innerHTML  = textBoxDisplays[4]
-	// } else if (value < 9){
-	// 	document.getElementById("part3DisplayBox").innerHTML  = textBoxDisplays[5]
-	// } else {
-	// 	document.getElementById("part3DisplayBox").innerHTML  = textBoxDisplays[6]
-	// }
+
 	return 0
 } 
 
