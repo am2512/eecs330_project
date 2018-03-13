@@ -226,6 +226,7 @@ body {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0%;
     border: 0px;
+    font-color: #eee3ff;
 }
 
 .headerbutton {
@@ -250,7 +251,7 @@ body {
     font-family: 'Oxygen', sans-serif;
     font-size: 30px;
     border: 0px;
-    color: black;
+    color: #eee3ff;
     background-color: #FF00FF;
     border-radius: 4px;
     box-shadow: 5px 10px #855dc2;
