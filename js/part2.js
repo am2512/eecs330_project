@@ -37,12 +37,9 @@ console.log('hey');
     }
   }
 
-
-
-  console.log(localLabels)
-  console.log(localBackgroundColors)
-  console.log(localData)
-
+  console.log(localDataSets)
+  console.log('hereaewr')
+  
   new Chart(document.getElementById("line-chart"), {
     type: 'line',
     data: {
