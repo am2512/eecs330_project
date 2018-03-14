@@ -1,9 +1,11 @@
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 
+// data-old-value="300" 
+// document.getElementById("Twoslider").dataset.binaryString = '1111'
+document.getElementById("button-0-1").dataset.binaryString = '1111'
 
 function setAll(id) {
-  console
   element = document.getElementById(id)
   console.log(element)
   console.log(element.innerHTML)
@@ -13,12 +15,16 @@ function setAll(id) {
       console.log('heythere');
       elements[i].style.backgroundColor = "#e84563"
       elements[i].setAttribute('data-button', '7'); 
+      document.getElementById("Twoslider").dataset.binaryString = '0000'
     }
   } else {
     elements = document.getElementsByClassName("activitiesButton")
     for (i = 0 ; i < elements.length ; i++) {
       elements[i].style.backgroundColor = "#4f8cef"  
       elements[i].setAttribute('data-button', '0'); 
+      // document.getElementById("Twoslider").dataset.binaryString = '1111'
+      document.getElementById("button-0-1").dataset.binaryString = '1111'
+
     }
   }
 
@@ -38,6 +44,19 @@ function setActive(id) {
     console.log('asf')
     element.setAttribute('data-button', '0');
   }
+
+  binaryString = ''
+  i = 0
+  for (i;i<4;i++){
+    if (document.getElementById('button'+(i+1).toString()).getAttribute('data-button')== '0'){
+      binaryString = binaryString +'1'
+    } else {
+      binaryString = binaryString +'0'
+    }
+
+  }
+
+ document.getElementById("button-0-1").dataset.binaryString = binaryString
 
 }
 
@@ -150,5 +169,7 @@ function arcTween(a) {
     return arc(i(t));
   };
 }
+
+
 
 
