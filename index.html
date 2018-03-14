@@ -11,11 +11,61 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oxygen:700" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	
 </head>
 
 <body>
+        <div class="w3-container">
+ 
 
+  <div class="w3-row">
+    <a href="javascript:void(0)" onclick="openCity(event, 'London');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Log A Task</div>
+    </a>
+    <a href="javascript:void(0)" onclick="openCity(event, 'Paris');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">View Activities</div>
+    </a>
+    <a href="javascript:void(0)" onclick="openCity(event, 'Tokyo');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">View Analytics</div>
+    </a>
+    <a href="javascript:void(0)" onclick="openCity(event, 'Tokyo');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Settings</div>
+    </a>
+  </div>
+
+  <div id="London" class="w3-container city" style="display:none">
+    
+  </div>
+
+  <div id="Paris" class="w3-container city" style="display:none">
+   
+  </div>
+
+  <div id="Tokyo" class="w3-container city" style="display:none">
+   
+  </div>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-border-red";
+}
+</script>
+	
+	
+	
 	<div class ="headerbar">
 		<button class="headerbuttonSelected">Log A Task</button>
 		<button class="headerbutton" onclick="location.href ='part2.html'">View Activities</button>
@@ -33,7 +83,6 @@
 				<input type="text" id="question1Input" name="lname" class="inputField" value="Select an existing category or type in a new one">
 				<button onclick="myFunction()" class="dropbtn">&#11015;</button>
 				<div id="myDropdown" class="dropdown-content">
-					<a href="#" onclick="setInput(this.id)" id="Golfing" >Golfing</a>
 					<a href="#" onclick="setInput(this.id)" id="Working Out">Working Out</a>
 					<a href="#" onclick="setInput(this.id)" id="Playing Piano">Playing Piano</a>
 					<a href="#" onclick="setInput(this.id)" id="Meditation">Meditation</a>
