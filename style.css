@@ -266,7 +266,7 @@ body {
   display: grid;
   font-family: 'Nunito', sans-serif;
   grid-template-columns: auto auto auto;
-  grid-gap: 15px;
+  grid-gap: 20px;
   background-color: #eee3ff;
   padding: 35px;
 }
