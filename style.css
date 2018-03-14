@@ -231,7 +231,7 @@ body {
 
 .headerbutton {
     height: 100%;
-    width: 25%;
+    width: 24%;
     margin: 0px 0px 0px 0px;
     padding: 0px 0% 0px 0%;
     font-family: 'Oxygen', sans-serif;
@@ -239,22 +239,20 @@ body {
     border: 0px;
     color: #eee3ff;
     background-color: purple;
-    border-radius: 4px;
-    box-shadow: 5px 10px #855dc2;
+    
 }
 
 .headerbuttonSelected {
     height: 100%;
-    width: 25%;
+    width: 24%;
     margin: 0px 0px 0px 0px;
     padding: 0px 0% 0px 0%;
     font-family: 'Oxygen', sans-serif;
     font-size: 30px;
     border: 0px;
     color: #eee3ff;
-    background-color: #FF00FF;
-    border-radius: 4px;
-    box-shadow: 5px 10px #855dc2;
+    background-color: #eee3ff;
+    
     
     
 }
