@@ -4,8 +4,6 @@ toggle between hiding and showing the dropdown content */
 // data-old-value="300" 
 // document.getElementById("Twoslider").dataset.binaryString = '1111'
 document.getElementById("button-0-1").dataset.binaryString = '1111'
-console.log('here');
-
 var lineData = [
   [1,1,1,1,2,6,7,8,7,1],
   [3,3,4,8,9,2,1,4,6,1],
