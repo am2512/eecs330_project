@@ -185,11 +185,13 @@ body {
 #myChart1 {
     float:left;
     position: relative;
-    left: 100px;
+    left: 400px;
 }
 
 #myChart2 {
     float:left;
+    position: relative;
+    left: 1080px;
 }
 
 #Twoslider {
