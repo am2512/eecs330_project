@@ -231,7 +231,7 @@ body {
 
 .headerbutton {
     height: 100%;
-    width: 24%;
+    width: 24.5%;
     margin: 0px 0px 0px 0px;
     padding: 0px 0% 0px 0%;
     font-family: 'Oxygen', sans-serif;
@@ -244,7 +244,7 @@ body {
 
 .headerbuttonSelected {
     height: 100%;
-    width: 24%;
+    width: 24.5%;
     margin: 0px 0px 0px 0px;
     padding: 0px 0% 0px 0%;
     font-family: 'Oxygen', sans-serif;
@@ -266,6 +266,7 @@ body {
   font-family: 'Nunito', sans-serif;
   grid-template-columns: auto auto auto;
   grid-gap: 20px;
+  background-image: url("images/images.jpeg");
   background-color: #eee3ff;
   padding: 35px;
 }
