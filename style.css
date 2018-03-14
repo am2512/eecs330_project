@@ -599,26 +599,21 @@ input:checked + .slider:before {
 			width: 6em;
 			padding: 0 0.5em;
 			font-weight: bold;
-			color: black;
-			border-bottom: 0.5em solid #fc6;
+			border-bottom: 0.5em solid purple;
 			color: purple;
 		}
 
 #header a:hover {
-			color: #fa3;
-			border-color: #fa3;
+			color: #af8cd8;
+			border-color: #af8cd8;
 		}
 
 #header #selected a {
-			color: #eee3ff;
-			border-color: #f80;
+			color: #CFBAFC;
+			border-color: #CFBAFC;
 		}
 
-#content {
-			clear: both;
-			color: white;
-			padding: 1em;
-		}
+
 
 
 
