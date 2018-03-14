@@ -243,6 +243,10 @@ body {
     
 }
 
+#b2 {
+    background-color: #d8a3ed;
+}
+
 .headerbuttonSelected {
     height: 100%;
     width: 24.5%;
