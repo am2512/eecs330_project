@@ -252,9 +252,9 @@ body {
     font-size: 30px;
     border: 0px;
     color: #eee3ff;
-    background-color: #FF00FF;
-    border-radius: 4px;
-    box-shadow: 5px 10px #855dc2;
+    background-color: #CFBAFC;
+    text-shadow: 2px 2px 4px #000000;
+    
 }
 
 /* Genreal Grid */
