@@ -539,8 +539,8 @@ path {
 .slider:before {
   position: absolute;
   content: "";
-  height: 20px;
-  width: 20px;
+  height: 15px;
+  width: 15px;
   left: 4px;
   bottom: 1px;
   background-color: white;
