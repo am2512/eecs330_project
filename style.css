@@ -184,6 +184,8 @@ body {
 
 #myChart1 {
     float:left;
+    position: relative;
+    left: 100px;
 }
 
 #myChart2 {
