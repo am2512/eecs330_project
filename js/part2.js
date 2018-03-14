@@ -6,27 +6,6 @@ toggle between hiding and showing the dropdown content */
 document.getElementById("button-0-1").dataset.binaryString = '1111'
 
 function setAll(id) {
-  element = document.getElementById(id)
-  console.log(element)
-  console.log(element.innerHTML)
-  if (element.innerHTML == 'Select All') {
-    elements = document.getElementsByClassName("activitiesButton")
-    for (i = 0 ; i < elements.length ; i++) {
-      console.log('heythere');
-      elements[i].style.backgroundColor = "#e84563"
-      elements[i].setAttribute('data-button', '7'); 
-      document.getElementById("Twoslider").dataset.binaryString = '0000'
-    }
-  } else {
-    elements = document.getElementsByClassName("activitiesButton")
-    for (i = 0 ; i < elements.length ; i++) {
-      elements[i].style.backgroundColor = "#4f8cef"  
-      elements[i].setAttribute('data-button', '0'); 
-      // document.getElementById("Twoslider").dataset.binaryString = '1111'
-      document.getElementById("button-0-1").dataset.binaryString = '1111'
-
-    }
-  }
 
 }
 
