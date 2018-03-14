@@ -42,6 +42,7 @@ new Chart(document.getElementById("bar-chart"), {
 var p = document.getElementById("button-0-1");
 p.addEventListener("click", function() {
 
+console.log('hey')
 
 localLabels = []
 localBackgroundColors = []
