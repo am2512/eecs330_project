@@ -4,10 +4,11 @@ toggle between hiding and showing the dropdown content */
 // data-old-value="300" 
 // document.getElementById("Twoslider").dataset.binaryString = '1111'
 document.getElementById("button-0-1").dataset.binaryString = '1111'
+console.log('here');
 
 function setAll(id) {
 
-console.log('hey')
+console.log('hey');
 
 localLabels = []
 localBackgroundColors = []
