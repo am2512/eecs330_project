@@ -573,7 +573,64 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-/* General */
+/* Tabs */
+
+#header {
+		background-color: white;
+	}
+
+#header ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			background: white;
+			float: left;
+			width: 100%;
+	}
+
+#header li {
+			float: left;
+			margin: 0 1em 0 0;
+		}
+
+#header a {
+			text-decoration: none;
+			display: block;
+			width: 6em;
+			padding: 0 0.5em;
+			font-weight: bold;
+			color: black;
+			border-bottom: 0.5em solid #fc6;
+			color: #fc6;
+		}
+
+#header a:hover {
+			color: #fa3;
+			border-color: #fa3;
+		}
+
+#header #selected a {
+			color: #f80;
+			border-color: #f80;
+		}
+
+#content {
+			clear: both;
+			color: white;
+			padding: 1em;
+		}
+
+#content p {
+			margin: 0 0 1em 0;
+		}
+
+h1 {
+			margin: 0;
+			padding: 0.5em 0 1em 0.5em;
+			color: #f80;
+			font-size: 1.5em;
+			font-style: italic;
+		}
 
 
 
