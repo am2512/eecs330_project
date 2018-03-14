@@ -6,9 +6,59 @@ toggle between hiding and showing the dropdown content */
 document.getElementById("button-0-1").dataset.binaryString = '1111'
 console.log('here');
 
+var lineData = [
+  [1,1,1,1,2,6,7,8,7,1],
+  [3,3,4,8,9,2,1,4,6,1],
+  [1,3,3,9,9,7,6,1,1,1],
+  [4,5,2,7,8,1,1,1,1,1]
+]
+
 function setAll(id) {
 
 console.log('hey');
+  
+  localDataSets = []
+  binaryString = document.getElementById("button-0-1").dataset.binaryString
+  console.log(binaryString)
+  var i = 0
+  for (i; i<binaryString.length ; i++ ) {
+    if ('1' == binaryString.charAt(i)) {
+      localDataSets.push(
+        {
+          data: lineData[i],
+          label: globalLabels[i],
+          borderColor: globalBackgroundColors[i],
+          fill: false
+        })
+
+      // localLabels.push(globalLabels[i])
+      // localBackgroundColors.push(globalBackgroundColors[i])
+      // localData.push(lineData[i])
+    }
+  }
+
+
+
+  console.log(localLabels)
+  console.log(localBackgroundColors)
+  console.log(localData)
+
+  new Chart(document.getElementById("line-chart"), {
+    type: 'line',
+    data: {
+      labels: [1500,1600,1700,1750,1800,1950,1999,2050],
+      datasets: localDataSets
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Stress levels for each activity'
+      }
+    }
+  });
+
+
+
 
 localLabels = []
 localBackgroundColors = []
