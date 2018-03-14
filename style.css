@@ -542,7 +542,7 @@ path {
   height: 20px;
   width: 20px;
   left: 4px;
-  bottom: 4px;
+  bottom: 1px;
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
