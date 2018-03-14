@@ -230,9 +230,9 @@ body {
 }
 
 .headerbutton {
-    height: 50%;
-    width: 20%;
-    margin: 25px 2.25% 0px 2.25%;
+    height: 100%;
+    width: 25%;
+    margin: 0px 0px 0px 0px;
     padding: 0px 0% 0px 0%;
     font-family: 'Oxygen', sans-serif;
     font-size: 30px;
@@ -244,9 +244,9 @@ body {
 }
 
 .headerbuttonSelected {
-    height: 50%;
-    width: 20%;
-    margin: 25px 2.25% 0px 2.25%;
+    height: 100%;
+    width: 25%;
+    margin: 0px 0px 0px 0px;
     padding: 0px 0% 0px 0%;
     font-family: 'Oxygen', sans-serif;
     font-size: 30px;
