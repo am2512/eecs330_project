@@ -628,7 +628,9 @@ input:checked + .slider:before {
 /*  RADIO BUTTONS  */
 
 .mdl-radio__button {
-width:25px;
+height: 1em;
+width:3em;
+
 }
 
 
