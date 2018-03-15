@@ -156,6 +156,7 @@ function setActive(id) {
   }
 
  document.getElementById("button-0-1").dataset.binaryString = binaryString
+  console.log('her');
  setAll();
  return 0;
 }
