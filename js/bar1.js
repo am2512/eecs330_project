@@ -4,7 +4,7 @@ var globalLabels = ["Playing Piano", "Meditation", "Homework", "Working Out"]
 var globalBackgroundColors = ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"]
 var globalData = [.5,2,6,5]
 
-new Chart(document.getElementById("bar-chart"), {
+myBarChart = new Chart(document.getElementById("bar-chart"), {
 
     type: 'bar',
     data: {
