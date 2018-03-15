@@ -536,7 +536,7 @@ path {
 
 .switch input {display:none;}
 
-.slider {
+/* .slider {
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -558,7 +558,7 @@ path {
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
-}
+} */
 
 input:checked + .slider {
   background-color: purple;
