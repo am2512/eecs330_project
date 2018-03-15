@@ -16,6 +16,7 @@
      if (alertString.length === 0) {
         console.log('there')
         document.location.href = "login.html";
+        console.log('there1')
         return 0 
      } else {
         alert(alertString + "Please check your inputs.")
