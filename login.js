@@ -14,7 +14,7 @@
         alertString = alertString + 'You have not entered password.\n'
      }
      if (alertString.length === 0) {
-        console.log('there')
+        console.log('there2')
         document.location.href = "login.html";
         console.log('there1')
         return 0 
