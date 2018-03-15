@@ -1,23 +1,22 @@
 
 
 
- <script language="Javascript">
-
-            function IsEmpty(){ 
-
-                if(document.form.question.value == "")
-                {
-                    alert("empty");
-                }
-                return;
-            }
-
-
-function IsEmpty(){
-  if(document.forms['frm'].question.value === "")
-  {
-    alert("empty");
-    return false;
-  }
-    return true;
-}
+ function isEmpty(){ 
+     var alertString = ''
+     var uName =  document.getElementById("username").value
+     var pWord = document.getElementById("password").value
+     if (uName.length === 0) {
+       alertString = alertString + 'You have not entered a username.\n'
+     }
+     if (pWord.length === 0) {
+        alertString = alertString + 'You have not entered password.\n'
+     }
+     if (alertString.length === 0)
+        return 0 
+     }else {
+      alert(alertString + 'Please check your inputs."
+            return 1
+     }
+         
+  
+ }
