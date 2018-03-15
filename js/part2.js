@@ -89,7 +89,7 @@ function setAll() {
 
 console.log('hey');
   myBarChart.destroy()
-  myLineChar.destroy()
+  myLineChart.destroy()
   localDataSets = []
   binaryString = document.getElementById("button-0-1").dataset.binaryString
   console.log(binaryString)
