@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <title>Settings</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+</head>
+
+<body>
+
+	<div class ="headerbar">
+		<button class="headerbutton" onclick="location.href ='index.html'">Log a Task</button>
+		<button class="headerbutton" onclick="location.href ='part2.html'">View Activities</button>
+		<button class="headerbutton" onclick="location.href ='part3.html'">View Analytics</button>
+		<button class="headerbuttonSelected">Settings</button>
+	</div>
+
+	<div class="grid-container">
+		<div class="item1"><p>Edit Categories:</p></div>
+		<div class="item2">
+			<p>Categories:</p>
+			<nav><ul id="demo"></ul></nav>
+			New:
+			<input type="text" id="new_cat">
+			<input type='button' onclick='changeText2()' value='Add Category' />
+		</div>
+			<!--
+	   Other Approaches:
+		<div>
+			<select id="filename">
+    			<option value="File" selected class="placeholder">[File name]</option>
+    			<option value="file1.html">Golfing</option>
+    			<option value="file2.html">Working Out</option>
+    			<option value="file3.html">Playing Piano</option>
+    			<option value="file4.html">Meditation</option>
+    			<option value="file4.html">Homework</option>
+    			<option value="file4.html">Add a Category</option>
+			</select>
+			<span id="delete" onclick="addCategory()">✖</span>
+		</div>
+
+            	<ul>
+                <li><img id="rem1" src="remove.png" alt="icon" width="20" height="20" />Link 1</li>
+                <li>Link 2</li>
+                <li>Link 3</li>
+                <li>Link 4</li>
+                <li>Link 5</li>
+                <li>Link 6</li> 
+                <li>Link 7</li> 
+                <li>Link 8</li>
+                <li>Link 9</li>
+                <li>Link 10</li>
+                <li>Link 11</li>
+                <li>Link 13</li>
+                <li>Link 13</li>
+		</ul>
+			-->
+
+		
+		<div class="item3"><p>Clear History</p></div> 
+		
+		<div class="item4">
+			Are you sure you want to clear your activity history?
+			<br>
+			<button class="submitbutton" onclick="submitTask()">
+				<a href="index.html"></a>
+				Yes
+			</button>
+			<br>
+			<button class="submitbutton" onclick="submitTask()">
+				<a href="index.html"></a>
+				No
+			</button>
+		</div>
+		
+		<div class="item5">
+			<p>Help</p>
+		</div>
+		
+		<div class="item6">
+		</div>
+		
+            </div>
+		</div>
+		
+		<div class="item8">
+		</div> 
+	</div>
+
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/part2.js"></script>
+
+
+</body>
+</html>

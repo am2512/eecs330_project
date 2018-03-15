@@ -1,20 +1,20 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">  
 <html lang="en" >
 
 <head>
     <meta charset="UTF-8">
-    <title>Log a Task</title>
+    <title>View Activities</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 	<div class ="headerbar">
-		<button class="headerbutton">Log A Task</button>
-		<button class="headerbutton">View Activities</button>
-		<button class="headerbutton">View Analytics</button>
-		<button class="headerbutton">Settings</button>
+		<button class="headerbutton" onclick="location.href ='index.html'">Log A Task</button>
+		<button class= "headerbuttonSelected">View Activities</button>
+		<button class="headerbutton" onclick="location.href ='part3.html'">View Analytics</button>
+		<button class="headerbutton" onclick="location.href ='settings.html'">Settings</button>
 	</div>
 
 	<!-- style the analytic buttons -->
@@ -27,78 +27,39 @@
 			</div>
 
 			<div class="nonHeadActivitiesButtons">
-				<button data-button="0" onclick="setActive(this.id)" id="button1" class="activitiesButton">Fitness</button>
-				<button data-button="0" onclick="setActive(this.id)" id="button2" class="activitiesButton">Social</button>
-				<button data-button="0" onclick="setActive(this.id)" id="button3" class="activitiesButton">Study</button>
-				<button data-button="0" onclick="setActive(this.id)" id="button4" class="activitiesButton">Music</button>
-				<button data-button="0" onclick="setActive(this.id)" id="button5" class="activitiesButton">Student Group</button>
+				<button data-button="0" onclick="setActive(this.id)" id="button1" class="activitiesButton">Golfing</button>
+				<button data-button="0" onclick="setActive(this.id)" id="button2" class="activitiesButton">Working Out</button>
+				<button data-button="0" onclick="setActive(this.id)" id="button3" class="activitiesButton">Playing Piano</button>
+				<button data-button="0" onclick="setActive(this.id)" id="button4" class="activitiesButton">Meditation</button>
+				<button data-button="0" onclick="setActive(this.id)" id="button5" class="activitiesButton">Homework</button>
 				<button data-button="0" onclick="setActive(this.id)" id="button6" class="activitiesButton">Intramural</button>
 			</div>
+		</div>
+
+		<div class="Two-item2">
+
+
+
+			<div id="myChart1" style="width:680px;">
+				<canvas id="line-chart" width="800" height="450"></canvas>
+			</div>
+
+			<div id="myChart2" style="width:700px;">
+				<canvas id="bar-chart" width="800" height="450"></canvas>
+			</div>
+			
 
 		</div>
 
+
+
 	</div>
-<!-- 
-	<div class="grid-container">
-		<div class="item1">
-			<p>Pick a category:</p>
-		</div>
-		
-		<div class="item2">
-			<div class="dropdown">
-				<input type="text" id="question1Input" name="lname" class="inputField">
-				<button onclick="myFunction()" class="dropbtn">&#11015;</button>
-				<div id="myDropdown" class="dropdown-content">
-					<a href="#" onclick="setInput(this.id)" id="Fitness" >Fitness</a>
-					<a href="#" onclick="setInput(this.id)" id="Study">Study</a>
-					<a href="#" onclick="setInput(this.id)" id="Social">Social</a>
-					<a href="#" >Add a Category</a>
-				</div>
-			</div>
-		</div>
-		
-		<div class="item3">
-			<p>How do you feel after this activity?</p>
-		</div> 
-		
-		<div class="item4">
-			<p class="badSlider">Bad</p>
-			<div id="slidercontainer" class="slidercontainer" >
-				<input type="range" min="0" max="10" value="5" class="slider" id="myRange">
-				<p id="scale"><span id="demo"></span></p>
-			<p class="goodSlider">Good</p>
-			</div>
-		</div>
-		
-		<div class="item5">
-			<p>How long did you spend on this activity?</p>
-		</div>
-		
-		<div class="item6">
-			<input id="duration-val" value="00:00">
-		</div>
-		
-		<div class="item7">
-            Let us know a bit about your emotions:
-            <div class="buttonbox">
-                <button class="badcolor">Frustrated</button>
-                <button class="badcolor">Angry</button>
-                <button class="badcolor">Exhausted</button>
-                <button class="goodcolor">Relaxed</button>
-                <button class="goodcolor"> Cheerful</button>
-                <button class="goodcolor">Calm</button>
-            </div>
-		</div>
-		
-		<div class="item8">
-			<button class="submitbutton">
-				<a href="index.html"></a>
-				Submit
-			</button>
-		</div> 
-	</div>
- -->
+
+ 
 	<script type="text/javascript" src="js/part2.js"></script>
-
+	<script src="js/Chart.js"></script>
+	<script src="js/pie1.js"></script>
+	<script src="js/line1.js"></script>
+	<script src="js/bar1.js"></script>
 </body>
 </html>

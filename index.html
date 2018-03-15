@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">  
+
 <html lang="en" >
 
 <head>
     <meta charset="UTF-8">
     <title>Log a Task</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
 </head>
 
 <body>
 
 	<div class ="headerbar">
-		<button class="selectedheaderbutton">Log A Task</button>
-		<button class="headerbutton">View Activities</button>
-		<button class="headerbutton">View Analytics</button>
-		<button class="headerbutton">Settings</button>
+		<button class="headerbuttonSelected">Log A Task</button>
+		<button class="headerbutton" onclick="location.href ='part2.html'">View Activities</button>
+		<button class="headerbutton" onclick="location.href ='part3.html'">View Analytics</button>
+		<button class="headerbutton" onclick="location.href ='settings.html'">Settings</button>
 	</div>
 
 	<div class="grid-container">
@@ -24,14 +25,14 @@
 		
 		<div class="item2">
 			<div class="dropdown">
-				<input type="text" id="question1Input" name="lname" class="inputField">
+				<input type="text" id="question1Input" name="lname" class="inputField" value="Select an existing category or type in a new one">
 				<button onclick="myFunction()" class="dropbtn">&#11015;</button>
 				<div id="myDropdown" class="dropdown-content">
-					<a href="#" onclick="setInput(this.id)" id="Fitness" >Golfing</a>
-					<a href="#" onclick="setInput(this.id)" id="Study">Working Out</a>
-					<a href="#" onclick="setInput(this.id)" id="Social">Playing Piano</a>
-					<a href="#" onclick="setInput(this.id)" id="Social">Meditation</a>
-					<a href="#" onclick="setInput(this.id)" id="Social">Homework</a>
+					<a href="#" onclick="setInput(this.id)" id="Golfing" >Golfing</a>
+					<a href="#" onclick="setInput(this.id)" id="Working Out">Working Out</a>
+					<a href="#" onclick="setInput(this.id)" id="Playing Piano">Playing Piano</a>
+					<a href="#" onclick="setInput(this.id)" id="Meditation">Meditation</a>
+					<a href="#" onclick="setInput(this.id)" id="Homework">Homework</a>
 					<a href="#" >Add a Category</a>
 				</div>
 			</div>
@@ -44,8 +45,7 @@
 		<div class="item4">
 			<p class="badSlider">Bad</p>
 			<div id="slidercontainer" class="slidercontainer" >
-				<input type="range" min="0" max="10" value="5" class="slider" id="myRange">
-				<!-- <p id="scale"><span id="demo"></span></p> -->
+				<input type="range" min="0" max="10" value="5" class="slide" id="myRange">
 			<p class="goodSlider">Good</p>
 			</div>
 		</div>
@@ -55,7 +55,15 @@
 		</div>
 		
 		<div class="item6">
-			<input id="duration-val" value="00:00">
+			<input id="duration-val1" value="00:00">
+		</div>
+		
+		<div class="item5">
+			<p>What time did you start this activity?</p>
+		</div>
+		
+		<div class="item6">
+			<input id="duration-val2" value="00:00">
 		</div>
 		
 		<div class="item7">
