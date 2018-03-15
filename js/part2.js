@@ -3,7 +3,46 @@ toggle between hiding and showing the dropdown content */
 
 // data-old-value="300" 
 // document.getElementById("Twoslider").dataset.binaryString = '1111'
-myBarChart = null
+
+var globalLabels = ["Playing Piano", "Meditation", "Homework", "Working Out"]
+var globalBackgroundColors = ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"]
+var globalData = [.5,2,6,5]
+
+
+myBarChart = new Chart(document.getElementById("bar-chart"), {
+
+    type: 'bar',
+    data: {
+      labels: ["Playing Piano", "Meditation", "Homework", "Working Out"],
+      // labels: ["Playing Piano", "Meditation", "Homework", "Working Out"],
+      datasets: [
+        {
+          label: "Stress levels",
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9"],
+          data: [10,5,7,6]
+        }
+      ]
+    },
+    options: {
+      legend: { display: false },
+      title: {
+        display: true,
+        text: 'Time spent on each activity'
+      },
+
+        scales: {
+          yAxes: [{
+            display: true,
+            ticks: {
+                // suggestedMin: 0,    // minimum will be 0, unless there is a lower value.
+                // OR //
+                beginAtZero: true   // minimum value will be 0.
+            }
+        }]
+       }
+
+    }
+});
 myLineChart = new Chart(document.getElementById("line-chart"), {
   type: 'line',
   data: {
