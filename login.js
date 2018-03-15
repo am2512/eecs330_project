@@ -28,7 +28,7 @@
  }
 
 
- function isEmptyCreate()(){ 
+ function isEmptyCreate(){ 
     console.log('here')
      var alertString = ''
      var uName =  document.getElementById("username").value
