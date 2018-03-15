@@ -17,7 +17,7 @@
         console.log('there')
         return 0 
      } else {
-        alert(alertString + 'Please check your inputs.")
+        alert(alertString + "Please check your inputs.")
         console.log('therasdfe')
         return 1
      }
