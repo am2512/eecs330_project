@@ -14,7 +14,7 @@ body {
 }
 
 #yAxis {
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
   margin-top: 100px;
   font-size: 25px;
   display: inline-block;
