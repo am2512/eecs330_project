@@ -45,7 +45,7 @@
         alertString = alertString + 'You have not reentered your password.\n'
      }
      if (pWord != pWord2) {
-        alertString = alertString + 'Passwords do not matched.\n'
+        alertString = alertString + 'Passwords do not match.\n'
      }
      if (alertString.length === 0) {
         console.log('there4')
