@@ -15,7 +15,7 @@
      }
      if (alertString.length === 0) {
         console.log('there2')
-        document.location.href = "login.html";
+        document.location.href = "index.html";
         console.log('there1')
         return 0 
      } else {
