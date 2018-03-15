@@ -403,7 +403,9 @@ body {
     width: 50px;
     float: center;
 	*/
-	
+	  /* MAGIC HAPPENS HERE */
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
 	width:50%;
 	display: inline-block;
 	justify-content: center;
@@ -527,16 +529,6 @@ path {
 }
 
 
-/* TOGGLE BUTTONS */
-
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 50px;
-}
-
-.switch input {display:none;}
 
 /* .slider {
   position: absolute;
