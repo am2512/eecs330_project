@@ -11,7 +11,7 @@ var lineData = [
   [4,5,2,7,8,1,1,1,1,1]
 ]
 
-function setAll(id) {
+function setAll() {
 
 console.log('hey');
   
@@ -156,7 +156,8 @@ function setActive(id) {
   }
 
  document.getElementById("button-0-1").dataset.binaryString = binaryString
-
+ setAll();
+ return 0;
 }
 
 
