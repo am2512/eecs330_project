@@ -3,6 +3,8 @@ toggle between hiding and showing the dropdown content */
 
 // data-old-value="300" 
 // document.getElementById("Twoslider").dataset.binaryString = '1111'
+myBarChart = null
+myLineChart = null
 document.getElementById("button-0-1").dataset.binaryString = '1111'
 var lineData = [
   [1,1,1,1,2,6,7,8,7,1],
@@ -14,7 +16,8 @@ var lineData = [
 function setAll() {
 
 console.log('hey');
-  
+  myBarChart.destroy()
+  myLineChar.destroy()
   localDataSets = []
   binaryString = document.getElementById("button-0-1").dataset.binaryString
   console.log(binaryString)
@@ -38,7 +41,7 @@ console.log('hey');
   console.log(localDataSets)
   console.log('hereaewr')
   
-  new Chart(document.getElementById("line-chart"), {
+  myLineChart = new Chart(document.getElementById("line-chart"), {
     type: 'line',
     data: {
       labels: [1500,1600,1700,1750,1800,1950,1999,2050],
@@ -72,7 +75,7 @@ console.log(localLabels)
 console.log(localBackgroundColors)
 console.log(localData)
 
-new Chart(document.getElementById("bar-chart"), {
+myBarChart = new Chart(document.getElementById("bar-chart"), {
       type: 'bar',
       data: {
         labels: localLabels,
