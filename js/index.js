@@ -53,13 +53,13 @@ window.onclick = function(event) {
       }
     }
     var x = document.getElementById("myRange");
-    if (x.style.display === "none") {
-        console.log(x.style.display)
-        x.style.display = "block";
-    } else {
-        console.log(x.style.display)
-        x.style.display = "none";
-    }
+//     if (x.style.display === "none") {
+//         console.log(x.style.display)
+//         x.style.display = "block";
+//     } else {
+//         console.log(x.style.display)
+//         x.style.display = "none";
+//     }
   }
 }
 
