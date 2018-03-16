@@ -666,8 +666,8 @@ margin-right:320px;
 
 /* Submit button */
 #submit_button {
-padding-top:20px;
-margin-left: 10px;
+margin-top:-10px;
+margin-left: 30px;
 width:1000px;
 height:140px;
 }
