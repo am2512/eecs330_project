@@ -1,0 +1,671 @@
+body {
+    
+}
+
+/*begin */
+
+
+/*begin part3*/
+
+#xAxis {
+  margin-top: -30px;
+  font-size: 25px;
+
+}
+
+#yAxis {
+  transform: rotate(-90deg);
+  margin-top: 100px;
+  font-size: 25px;
+  display: inline-block;
+  margin-left: -145px;
+  position:relative;
+  top:-160px;
+}
+
+#graphImage {
+  display: inline-block;
+}
+
+#part3DisplayBox {
+	background-color:#e0e0eb;
+  margin-top: -15px;
+  height: 80%;
+  font-size: 25px;
+}
+
+.displaySlider {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    margin-left: 50px;
+    margin-right: 20px;
+    font-family: "Arial", Times, serif;
+}
+
+/*new*/
+
+/*for index.thml*/
+.slider1 { 
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;   
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;   
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    /*background: #4f8cef;*/
+    background: orange;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4f8cef;
+    cursor: pointer;
+}
+
+/*endnew*/
+
+#Threeslider {
+/*   margin-top: 1000px; */
+  /*padding-top: -55px;*/
+  width: 75%;
+  cursor: pointer;
+}
+
+.Three-item1{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  /*margin-top: 15px;*/
+  /*width: 1500px;*/
+/*  di
+	
+	splay: flex;
+  justify-content: center;*/
+}
+
+.header3 {
+  margin-top: -15px;
+}
+
+.subheader3 {
+  margin-top: -20px;
+  font-size: 24px;
+  margin-bottom: 0px;
+	
+ font-family: 'Nunito', sans-serif;
+
+}
+
+.backgroundColorSlider{
+/* 	margin-top:500px; */
+/*    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    margin-left: 20px;
+    margin-right: 20px;*/
+  /*background: #9672d8;*/
+}
+
+
+/*##item1*/
+
+.Two-item1{
+  grid-column-start: 1;
+  grid-column-end: 4;
+/*  display: flex;
+  justify-content: center;*/
+}
+
+.headActivitiesButtons {
+}
+
+.headActivitiesButton {
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    height: 50%;
+    width: 40%;
+    margin: 25px 2.25% 0px 2.25%;
+    padding: 0px 0% 0px 0%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    /*border: 0px;*/
+    color: black;
+    background-color: white;
+    /*background-color: #A5F9FF;*/
+    border-radius: 4px;
+}
+
+.activitiesButton {
+    height: 50%;
+    width: 20%;
+    margin: 25px 2.25% 0px 2.25%;
+    padding: 0px 0% 0px 0%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    /*border: 0px;*/
+    color: black;
+    background-color: #0078D1;
+    /*background-color: #A5F9FF;*/
+    border-radius: 4px;
+    /*box-shadow: 5px 10px #855dc2;  */
+}
+
+/*item2*/
+.Two-item2 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  
+}
+
+#myChart {
+    float:left;
+}
+
+#myChart1 {
+    float:left;
+    position: relative;
+    left: 200px;
+}
+
+#myChart2 {
+    float:left;
+    position: relative;
+    left: 200px;
+}
+
+#Twoslider {
+    width: 75%;
+
+}
+
+.sliderText{
+    width: 25%;
+    display:inline-block;
+    margin-bottom: -50px;
+}
+
+#day {
+    text-align: left;
+}
+
+#week {
+    text-align: center;
+}
+
+#month {
+    text-align: right;s
+}
+
+/*item
+/* I'm organizing our CSS */
+
+/* Header */
+
+.headerbar {
+    background-color: #CFBAFC;
+    font-family: 'Oxygen', sans-serif;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    padding: 0px 0px 0px 0%;
+    border: 0px;
+    font-color: #eee3ff;
+}
+
+.headerbutton {
+    height: 100%;
+    width: 24.5%;
+    margin: 0px 0px 0px 0px;
+    padding-left:2px;
+    padding-right:2px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 30px;
+    border: 0px;
+    color: #eee3ff;
+    background-color: purple;
+    
+}
+
+
+.headerbuttonSelected {
+    height: 100%;
+    width: 24.5%;
+    margin: 0px 0px 0px 0px;
+    padding-left:2px;
+    padding-right:2px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 30px;
+    border: 0px;
+    color: #a580bf;
+    background-color: #eee3ff;
+    text-shadow: 1px 1px 1px  #c0b1ca ;
+    
+    
+    
+}
+
+/* Genreal Grid */
+
+.grid-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: grid;
+  font-family: 'Nunito', sans-serif;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  background-color: #eee3ff;
+  padding: 35px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  font-size: 28px;
+  text-shadow: 2px 2px #e6d8fc;
+}
+
+/* item 1 */
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  
+}
+
+/* item2 is never used, here is dropdown */
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    /*padding: 16px;*/
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    /*height: 5%;*/
+    display: flex;
+    justify-content: center;
+    align-self: center;
+	
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+/*.dropdown {
+    position: relative;
+    display: inline-block;
+}*/
+
+.dropdown-content {
+    /*padding-top: 100px;*/
+    font-size:20px;
+    margin-top: 25px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+.dropdown {
+	display: flex;
+	padding-top: 45px;
+	justify-content: center;
+
+}
+
+#question1Input {
+	height: 25%;
+	width: 75%;
+	align-self: center;
+	justify-content: center;
+	font-size:18px;
+}
+
+
+/* item 3 */
+
+.item3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  
+  
+}
+
+/* tem 4 */
+
+.item4 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	justify-content: center;
+}
+
+.badSlider {
+	width: 25%;
+	
+	color: #FF8080;
+	
+	margin-left: 0px;
+	margin-right: -60px;
+	/* this is a stop gap solution */
+	
+	display: inline-block;
+	justify-content: center;
+	align-self: center;
+	justify-content: center;
+
+}
+
+.slidercontainer {
+	/*
+    height: 40px;
+    margin-left: 250px;
+    width: 50px;
+    float: center;
+	*/
+	  /* MAGIC HAPPENS HERE */
+/*     transform: translateZ(0);
+    -webkit-transform: translateZ(0); */
+/* 	50 original
+	maring left -20px */
+	width:60%;
+	display: inline-block;
+	justify-content: center;
+	margin-left: 0px;
+	align-self: center;
+	justify-content: center;
+}
+
+.goodSlider {
+	width: 25%;
+	
+	color: #74d16e;
+	
+	margin-left: 15px;
+	margin-right: 0px;
+	
+	display: inline;
+	justify-content: center;
+	align-self: center;
+	justify-content: center;
+
+}
+
+/*tem 5 */
+
+.item5 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  padding-left:150px;
+  
+	
+}
+
+/*tem 6 */
+
+.item6 {
+	padding-top: 30px;
+
+}
+
+#duration-val2 {
+		margin-top: 30px;
+    font-family: 'Nunito', sans-serif;
+	font-size:25px;
+	width:250px;
+	text-align: center;
+}
+
+#duration-val1 {
+    margin-top: 30px;
+    font-family: 'Nunito', sans-serif;
+  font-size:25px;
+  width:250px;
+  text-align: center;
+}
+
+/* item 7 */
+
+.item7 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.goodcolor {
+    height: 45px;
+    width: 70px;
+    margin: 5px;
+    border: 2px;
+    background-color: #71FF95;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 3px 5px #c8b9df;
+}
+
+.badcolor {
+    height: 45px;
+    width: 70px;
+    margin: 5px;
+    border: 2px;
+    border: 2px;
+    background-color: #FF8080;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 3px 5px #c8b9df;
+}
+
+
+.item8 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.submitbutton {
+	/*
+    height: 45px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left:180px;
+    */
+	  border: 2px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    color: black;
+    background-color: #A5F9FF;
+	  padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    box-shadow: 5px 10px #855dc2;
+}
+
+/* PIE CHART */
+svg {
+  /*filter: url('#dropshadow');*/
+}
+
+path {
+  cursor: pointer;
+  stroke: #ccc;
+  stroke-width: 0px;
+}
+
+
+
+/* .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 4px;
+  bottom: 1px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+} */
+
+input:checked + .slider {
+  background-color: purple;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 25px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Tabs */
+
+#header {
+		background-color: white;
+	}
+
+#header ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			background: white;
+			float: center;
+			
+	}
+
+#header li {
+			float: left;
+			margin: 0 1em 0 0;
+		}
+
+#header a {
+			text-decoration: none;
+			display: block;
+			width: 6em;
+			padding: 0 0.5em;
+			font-weight: bold;
+			border-bottom: 0.5em solid purple;
+			color: purple;
+		}
+
+#header a:hover {
+			color: #af8cd8;
+			border-color: #af8cd8;
+		}
+
+#header #selected a {
+			color: #CFBAFC;
+			border-color: #CFBAFC;
+		}
+
+
+/*  RADIO BUTTONS  */
+
+.mdl-radio__button {
+height: 1em;
+width:3em;
+
+}
+
+
+/* Styling for toggle buttons for emotions on index.html */
+
+.item7 {
+	display:inline-block;
+}
+
+#emotion-labels {
+width:500px;
+float:left;
+padding-left:600px;
+font-size:15px;
+	
+}	
+#emotion_header {
+float:left;
+text-align:left;
+width:600px;
+height:300px;
+}
+
+
+
+/* Submit button */
+#submit_button {
+padding-top:150px;
+width:1000px;
+}
+
+
+
+
+
+
+
