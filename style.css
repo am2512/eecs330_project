@@ -458,7 +458,7 @@ body {
 		margin-top: 30px;
     font-family: 'Nunito', sans-serif;
 	font-size:18px;
-	width:544px;
+	width:600px;
 	text-align: left;
 }
 
@@ -466,7 +466,7 @@ body {
     margin-top: 30px;
     font-family: 'Nunito', sans-serif;
   font-size:18px;
-  width:544px;
+  width:600px;
   text-align: left;
 }
 
@@ -645,6 +645,7 @@ width:3em;
 #emotion-labels {
 width:400px;
 padding-left:550px;
+float:left;
 font-size:16px;
 	
 }	
@@ -675,6 +676,7 @@ padding: 20px 0px 0px 0px;
 padding: 20px 0px 0px 0px;
 }
 
+/* CHECKBOX LIST */
 input[type=checkbox] {
     display:block;
     visibility: hidden;
