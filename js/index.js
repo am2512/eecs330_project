@@ -132,7 +132,68 @@ function changeID(elm){
     }
 }
 
+var init_categories = ["Golfing", "Working Out", "Playing Piano", "Meditation", "Homework"]
+var list = document.getElementById('demo');
+var lastid = 0;
 
+function addCategory() {
+    var new_cat = document.getElementById('new_cat').value;
+    var entry = document.createElement('li');
+    entry.appendChild(document.createTextNode(new_cat));
+    entry.setAttribute('id','item'+lastid);
+    var removeButton = document.createElement('button');
+    removeButton.appendChild(document.createTextNode("remove"));
+    removeButton.setAttribute('onClick','removeName("'+'item'+lastid+'")');
+    entry.appendChild(removeButton);
+    lastid+=1;
+    list.appendChild(entry);
+}
+function init() {
+	document.getElementById('new_cat').value = "";
+	for (i = 0; i < init_categories.length; ++i) {
+		var entry = document.createElement('li');
+		entry.appendChild(document.createTextNode(init_categories[i]));
+		entry.setAttribute('id','item'+lastid);
+		var removeButton = document.createElement('button');
+		removeButton.appendChild(document.createTextNode("remove"));
+		var button_padding= document.createTextNode(" ");
+		removeButton.setAttribute('onClick','removeName("'+'item'+lastid+'")');
+		entry.appendChild(button_padding);
+		entry.appendChild(removeButton);
+		lastid+=1;
+		list.appendChild(entry);
+	}
+}
+function init2() {
+	document.getElementById('new_cat').value = "";
+	for (i = 0; i < init_categories.length; ++i) {
+		var entry = document.createElement('li');
+		entry.appendChild(document.createTextNode(init_categories[i]));
+		entry.setAttribute('id','item'+lastid);
+		var removeButton = document.createElement('button');
+		removeButton.appendChild(document.createTextNode("remove"));
+		var button_padding= document.createTextNode(" ");
+		removeButton.setAttribute('onClick','removeName("'+'item'+lastid+'")');
+		entry.appendChild(button_padding);
+		entry.appendChild(removeButton);
+		lastid+=1;
+		list.appendChild(entry);
+	}
+}
+
+function removeName(itemid){
+    var item = document.getElementById(itemid);
+    list.removeChild(item);
+}
+
+function resetAccount() {
+	var save = window.confirm('Are you sure you want to reset your activity history?')
+	if (save) {
+		alert("Your account activity history has been reset!");
+	}
+}
+
+init()
 
   
 
