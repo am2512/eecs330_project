@@ -56,7 +56,7 @@ window.onclick = function(event) {
         openDropdown.classList.remove('show');
       }
     }
-    document.getElementById("myRange").style.display = "block"
+    document.getElementById("myRange").style.display = "inline-block"
     console.log('block')
     document.getElementById("question1Input").dataset.binary = "0";
 //     if (doc === "1"){
