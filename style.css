@@ -103,7 +103,9 @@ body {
   grid-column-end: 4;
   /*margin-top: 15px;*/
   /*width: 1500px;*/
-/*  display: flex;
+/*  di
+	
+	splay: flex;
   justify-content: center;*/
 }
 
@@ -278,7 +280,7 @@ body {
   grid-template-columns: auto auto auto;
   grid-gap: 20px;
   background-color: #eee3ff;
-  padding: 35px;
+  padding: 35px 0px 0px 200px;
 }
 .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
@@ -652,7 +654,6 @@ width:500px;
 
 #toggles {
 width:300px;
-float:left;
 padding-left:200px;
 }
 
