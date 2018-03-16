@@ -59,15 +59,18 @@ function changeText() {
 	}
 	
 	// WE MIGHT NEED THIS DEPENGIND ON HOW IT LOOKS ON AHALYA'S
-	// if (value == 100) {
-	// 	document.getElementById("Threeslider").value = value
-	// } else if (value == 400){
-	// 	document.getElementById("Threeslider").value = value+3
-	// } else if (value == 500){
-	// 	document.getElementById("Threeslider").value = value+5
-	// } else {
-	// 	document.getElementById("Threeslider").value = value
-	// }
+	if  else if (value == 400){
+		document.getElementById("Threeslider").value = value+5
+	} else if (value == 500){
+		document.getElementById("Threeslider").value = value+10
+	}  else if (value == 100){
+		document.getElementById("Threeslider").value = value-10
+	} else if (value == 200){
+		document.getElementById("Threeslider").value = value-5
+	}else {
+		document.getElementById("Threeslider").value = value
+	}
+	console.log('valueudpated');
 	document.getElementById("Threeslider").value = value
 	document.getElementById("Threeslider").dataset.oldvalue = value
 	value = ( value / 100 ).toString()
