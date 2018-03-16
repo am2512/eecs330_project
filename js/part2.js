@@ -103,11 +103,11 @@ function setAll() {
   counter = 0
   lineLabels = []
   console.log(document.getElementById("button-0-1").style.backgroundColor)
-  console.log(typeof document.getElementById("button-0-1").style.backgroundColor)
-  if (document.getElementById("button-0-1").style.backgroundColor == "#a580bf"){
+  console.log("349 is a better class");
+  if (document.getElementById("button-0-1").style.backgroundColor == "rgb(165, 128, 191)"){
       counter = 24
       lineLabels = xAxisLine[0]
-  } else if (document.getElementById("button-1-1").style.backgroundColor == "#a580bf"){
+  } else if (document.getElementById("button-1-1").style.backgroundColor == "rgb(165, 128, 191)"){
       counter = 7
       lineLabels = xAxisLine[1]
   } else {
