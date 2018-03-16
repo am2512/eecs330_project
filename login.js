@@ -1,6 +1,6 @@
  function isEmpty(){ 
     console.log('here')
-  document.location.href = "createaccount.html";
+  document.location.href = "index.html";
   console.log(document.location.href)
   return false;
 //      var alertString = ''
