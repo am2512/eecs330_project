@@ -701,46 +701,46 @@ padding: 20px 0px 0px 0px;
     cursor: pointer;
 }
 
-#ebutton1 {
+.ebutton1 {
     background-color: white; 
     color: #a580bf; 
     border: 2px solid #a580bf;
 }
 
-#ebutton1:hover {
+.ebutton1:hover {
     background-color:#a580bf;
     color: white;
 }
 
-#ebutton2 {
+.ebutton2 {
     background-color: white; 
     color: #a580bf; 
     border: 2px solid #a580bf;
 }
 
-#ebutton2:hover {
+.ebutton2:hover {
     background-color:#a580bf;
     color: white;
 }
 
-#ebutton3 {
+.ebutton3 {
     background-color: white; 
     color: #a580bf; 
     border: 2px solid #a580bf;
 }
 
-#ebutton3:hover {
+.ebutton3:hover {
     background-color:#a580bf;
     color: white;
 }
 
-#ebutton4 {
+.ebutton4 {
     background-color: white;
     color: #a580bf; 
     border: 2px solid #a580bf;
 }
 
-#ebutton4:hover {background-color:#a580bf;
+.ebutton4:hover {background-color:#a580bf;
 color:white;}
 
 .ebuttonnew {
