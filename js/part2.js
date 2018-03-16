@@ -206,14 +206,14 @@ function setActiveTwo(id) {
   document.getElementById(id).style.backgroundColor = "#D9F1FE"
   document.getElementById(id).setAttribute('data-button', '7')
   if (id === "button-0-1") {
-      document.getElementById("button-1-1").style.backgroundColor = "#0078D1
-      document.getElementById("button-2-1").style.backgroundColor = "#0078D1
+      document.getElementById("button-1-1").style.backgroundColor = "#0078D1"
+      document.getElementById("button-2-1").style.backgroundColor = "#0078D1"
   } else if (id === "button-1-1"){
-      document.getElementById("button-0-1").style.backgroundColor = "#0078D1
-      document.getElementById("button-2-1").style.backgroundColor = "#0078D1      
+      document.getElementById("button-0-1").style.backgroundColor = "#0078D1"
+      document.getElementById("button-2-1").style.backgroundColor = "#0078D1"      
   } else {
-      document.getElementById("button-0-1").style.backgroundColor = "#0078D1
-      document.getElementById("button-1-1").style.backgroundColor = "#0078D1    
+      document.getElementById("button-0-1").style.backgroundColor = "#0078D1"
+      document.getElementById("button-1-1").style.backgroundColor = "#0078D1"   
   }
  setAll();
  return 0;
