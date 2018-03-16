@@ -633,11 +633,11 @@ width:3em;
 	display:inline-block;
 }
 
-.emotion-labels {
+#emotion-labels {
 width:300px;
 }	
 
-.toggles {
+#toggles {
 width:300px;
 }
 
