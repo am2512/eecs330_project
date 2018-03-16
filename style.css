@@ -688,7 +688,7 @@ padding: 20px 0px 0px 0px;
 
 .ebutton {
     background-color: white; /* Green */
-    border: none;
+    border: 2px solid #a580bf;
     color: #a580bf;
     padding: 11px 46px;
     text-align: center;
@@ -707,7 +707,7 @@ padding: 20px 0px 0px 0px;
     border: 2px solid #a580bf;
 }
 
-.ebutton1:hover {
+#ebutton1:hover {
     background-color:#a580bf;
     color: white;
 }
@@ -718,7 +718,7 @@ padding: 20px 0px 0px 0px;
     border: 2px solid #a580bf;
 }
 
-.ebutton2:hover {
+#ebutton2:hover {
     background-color:#a580bf;
     color: white;
 }
@@ -729,7 +729,7 @@ padding: 20px 0px 0px 0px;
     border: 2px solid #a580bf;
 }
 
-.ebutton3:hover {
+#ebutton3:hover {
     background-color:#a580bf;
     color: white;
 }
@@ -740,7 +740,7 @@ padding: 20px 0px 0px 0px;
     border: 2px solid #a580bf;
 }
 
-.ebutton4:hover {background-color:#a580bf;
+#ebutton4:hover {background-color:#a580bf;
 color:white;}
 
 .ebuttonnew {
