@@ -99,7 +99,7 @@ var lineData = [
 
 function setAll() {
 
-    
+  console.log('thisisathing');
   counter = 0
   lineLabels = []
   if (document.getElementById("button-0-1").style.backgroundColor === "#a580bf"){
