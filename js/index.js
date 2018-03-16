@@ -118,3 +118,20 @@ function resetInputs() {
   document.getElementById("button5").style.backgroundColor = "#4f8cef"
   console.log('asdfa');
 }
+
+
+
+//changing emotion button colors
+
+function colorChange(){
+  var el = document.getElementById('ebutton1');
+
+el.addEventListener('click', function() {
+  if(this.style.backgroundColor === 'purple') {
+    this.style.backgroundColor = '';
+  }      
+  else {
+    this.style.backgroundColor = 'white';
+  }      
+}
+});
