@@ -652,9 +652,9 @@ float:left;
 width:500px;
 }
 
-#toggles {
-width:300px;
-padding-left:200px;
+#after li {
+    float: left;
+    padding: 5px;
 }
 
 /* Submit button */
