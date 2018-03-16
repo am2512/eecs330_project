@@ -4,7 +4,7 @@ toggle between hiding and showing the dropdown content */
 // data-old-value="300" 
 // document.getElementById("Twoslider").dataset.binaryString = '1111'
 document.getElementById("button-1-1").style.backgroundColor = "#FFFFFF"
-document.getElementById("button-1-1").style.color = "#800080"
+document.getElementById("button-1-1").style.color = "#a580bf"
 
 var globalLabels = ["Playing Piano", "Meditation", "Homework", "Working Out"]
 var globalBackgroundColors = ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"]
@@ -237,25 +237,25 @@ myBarChart = new Chart(document.getElementById("bar-chart"), {
  }
 function setActiveTwo(id) {
   document.getElementById(id).style.backgroundColor = "#FFFFFF"
-    document.getElementById(id).style.color = "#800080"
+    document.getElementById(id).style.color = "#a580bf"
   document.getElementById(id).setAttribute('data-button', '7')
   if (id === "button-0-1") {
       console.log('here')
-      document.getElementById("button-1-1").style.backgroundColor = "#800080"
+      document.getElementById("button-1-1").style.backgroundColor = "#a580bf"
       document.getElementById("button-1-1").style.color = "#FFFFFF"
-      document.getElementById("button-2-1").style.backgroundColor = "#800080"
+      document.getElementById("button-2-1").style.backgroundColor = "#a580bf"
       document.getElementById("button-2-1").style.color = "#FFFFFF"
   } else if (id === "button-1-1"){
       console.log('hesdre')
-      document.getElementById("button-0-1").style.backgroundColor = "#800080"
+      document.getElementById("button-0-1").style.backgroundColor = "#a580bf"
       document.getElementById("button-0-1").style.color = "#FFFFFF"
-      document.getElementById("button-2-1").style.backgroundColor = "#800080"
+      document.getElementById("button-2-1").style.backgroundColor = "#a580bf"
       document.getElementById("button-2-1").style.color = "#FFFFFF"
   } else {
       console.log('afshere')
-      document.getElementById("button-0-1").style.backgroundColor = "#800080"
+      document.getElementById("button-0-1").style.backgroundColor = "#a580bf"
       document.getElementById("button-0-1").style.color = "#FFFFFF"
-      document.getElementById("button-1-1").style.backgroundColor = "#800080"
+      document.getElementById("button-1-1").style.backgroundColor = "#a580bf"
       document.getElementById("button-1-1").style.color = "#FFFFFF"
   }
  setAll();
@@ -271,10 +271,10 @@ function setActive(id) {
   console.log(data)
   if (data == "0") {
     element.style.backgroundColor = "#FFFFFF"
-    element.style.color = "#800080"
+    element.style.color = "#a580bf"
     element.setAttribute('data-button', '7');
   } else {
-    element.style.backgroundColor = "#800080"
+    element.style.backgroundColor = "#a580bf"
     element.style.color = "#FFFFFF"
     console.log('asf')
     element.setAttribute('data-button', '0');
