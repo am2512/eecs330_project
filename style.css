@@ -450,23 +450,23 @@ body {
 /*tem 6 */
 
 .item6 {
-	padding-top: 45px;
+	padding-top: 30px;
 
 }
 
 #duration-val2 {
-		margin-top: 45px;
-    font-family: 'Kalam', cursive;
+		margin-top: 30px;
+    font-family: 'Nunito', sans-serif;
 	font-size:25px;
-	width:100px;
+	width:250px;
 	text-align: center;
 }
 
 #duration-val1 {
-    margin-top: 45px;
-    font-family: 'Kalam', cursive;
+    margin-top: 30px;
+    font-family: 'Nunito', sans-serif;
   font-size:25px;
-  width:100px;
+  width:250px;
   text-align: center;
 }
 
@@ -645,12 +645,13 @@ width:3em;
 #emotion-labels {
 width:500px;
 float:left;
-padding-left:300px;
+padding-left:400px;
 font-size:15px;
 	
 }	
 #emotion_header {
 float:left;
+text-align:left;
 width:600px;
 height:300px;
 }
