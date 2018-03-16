@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Log a Task</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:700" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<!--      <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-indigo.min.css" />  -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	
+</head>
+
+<body>	
+	<div class ="headerbar">
+		<button class="headerbutton" id="b1">Log a Task</button>
+		<button class="headerbutton" id="b2" onclick="location.href ='part2.html'">View Activities</button>
+		<button class="headerbutton" id="b3" onclick="location.href ='part3.html'">View Analytics</button>
+		<button class="headerbuttonSelected" id="b4" onclick="location.href ='settings.html'">Settings</button>
+	</div>
+
+	<div class="grid-container">
+		<div class="item1">
+			<p>Edit Tasks </p>
+		</div>
+		
+		<div class="item2">
+			<div class="dropdown">
+				<input type="text" id="question1Input" name="lname" class="inputField" value="Select a task to delete">
+				<button onclick="myFunction()" class="dropbtn">&#11015;</button>
+				<div id="myDropdown" class="dropdown-content">
+					<a href="#" onclick="setInput(this.id)" id="Working Out">Working Out</a>
+					<a href="#" onclick="setInput(this.id)" id="Playing Piano">Playing Piano</a>
+					<a href="#" onclick="setInput(this.id)" id="Meditation">Meditation</a>
+					<a href="#" onclick="setInput(this.id)" id="Homework">Homework</a>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="item3">
+			<p> Customer Service Phone Number </p>
+		</div> 
+		
+		<div class="item2">
+			Phone : 773-202-LUNA
+
+			
+		</div>
+		
+		<div class="item5">
+			<p> Customer Service Email </p>
+		</div>
+		
+		<div class="item2">
+			litguy12@hotmail.com
+			
+		</div>
+		
+	
+		
+		<div class="item7">
+			<div id="emotion_header">
+            		How would you rate this app? 
+			</div>
+			<div id="emotion-labels">
+				<div id="checkBoxesContainer">
+    <button class="ebutton" id="ebutton1" onclick="changeID(this);">Great </button>
+<button class="ebutton" id="ebutton2" onclick="changeID(this);">Good</button>
+<button class="ebutton" id="ebutton3" onclick="changeID(this);">Bad</button>
+<button class="ebutton" id="ebutton4" onclick="changeID(this);">Horrible</button>	</div>
+			
+			
+			
+					
+
+            
+		</div>
+
+
+		
+	</div>
+
+<div class="item7">
+<div id="submit_button2">
+				<button onclick="location.href ='part2.html'" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Submit and Return to Activities</button>
+			</div>
+
+			</div>
+
+	
+
+			
+	
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/part2.js"></script>
+
+
+</body>
+</html>
