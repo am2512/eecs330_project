@@ -413,10 +413,10 @@ body {
     -webkit-transform: translateZ(0); */
 /* 	50 original
 	maring left -20px */
-	width:60%;
+	width:99%;
 	display: inline-block;
 	justify-content: center;
-	margin-left: 0px;
+	margin-left: 2px;
 	align-self: center;
 	justify-content: center;
 }
@@ -654,15 +654,15 @@ font-size:16px;
 float:left;
 text-align:left;
 width:600px;
-height:300px;
-margin-right:220px;
+height:200px;
+margin-right:320px;
 }
 
 
 
 /* Submit button */
 #submit_button {
-padding-top:5px;
+padding-top:50px;
 width:1000px;
 }
 
