@@ -64,9 +64,9 @@ function changeText() {
 		console.log(value+200);
 		document.getElementById("Threeslider").value = value+200
 	} else if (value == 500){
-		document.getElementById("Threeslider").value = value+10
+		document.getElementById("Threeslider").value = value+20
 	}  else if (value == 100){
-		document.getElementById("Threeslider").value = value-10
+		document.getElementById("Threeslider").value = value-20
 	} else if (value == 200){
 		document.getElementById("Threeslider").value = value-5
 	}else {
