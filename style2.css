@@ -664,8 +664,20 @@ width:1000px;
 }
 
 
+#button1:hover {
+ background-color: #D9F1FE; 
+}
+#button2:hover {
+ background-color: #D9F1FE; 
+}
+#button3:hover {
+ background-color: #D9F1FE; 
+}
 #button4:hover {
- background-color: white; 
+ background-color:#D9F1FE; 
+}
+#button-0-1:hover {
+background-color: #D9F1FE; 
 }
 
 
