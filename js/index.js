@@ -115,7 +115,7 @@ function resetInputs() {
   document.getElementById("ebutton ebutton2").className = "ebutton"
   document.getElementById("ebutton ebutton3").className = "ebutton"
   document.getElementById("ebutton ebutton4").className = "ebutton"
-  document.getElementById("ebutton ebutton5").className = "ebutton"
+//   document.getElementById("ebutton ebutton5").className = "ebutton"
   console.log('asdfa');
 }
 
