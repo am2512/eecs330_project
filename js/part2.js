@@ -112,6 +112,7 @@ function setAll() {
       counter = 28
       lineLabels = xAxisLine[2]
   }
+  console.log(counter);
   localLineData = []
   var j = 0
   var k = 0
