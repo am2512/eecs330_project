@@ -108,7 +108,7 @@ function setAll() {
   localLineData = []
   var j = 0
   var k = 0
-  for (j:j<4:j++) {
+  for (j;j<4;j++) {
       k = 0
       localLineData.push([])
       while(k<counter) {
