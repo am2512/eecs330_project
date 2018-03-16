@@ -457,17 +457,17 @@ body {
 #duration-val2 {
 		margin-top: 30px;
     font-family: 'Nunito', sans-serif;
-	font-size:20px;
-	width:450px;
-	text-align: center;
+	font-size:18px;
+	width:544px;
+	text-align: left;
 }
 
 #duration-val1 {
     margin-top: 30px;
     font-family: 'Nunito', sans-serif;
-  font-size:20px;
-  width:450px;
-  text-align: center;
+  font-size:18px;
+  width:544px;
+  text-align: left;
 }
 
 /* item 7 */
@@ -644,7 +644,6 @@ width:3em;
 
 #emotion-labels {
 width:400px;
-float:left;
 padding-left:550px;
 font-size:16px;
 	
