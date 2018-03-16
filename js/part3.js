@@ -66,6 +66,7 @@ function changeText() {
 	} else if (value == 500){
 		document.getElementById("Threeslider").value = value+15
 	}  else if (value == 100){
+		console.log('fifteen')
 		document.getElementById("Threeslider").value = value-15
 	} else if (value == 200){
 		document.getElementById("Threeslider").value = value-5
