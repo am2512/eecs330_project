@@ -29,13 +29,13 @@ body {
 
 #part3DisplayBox {
 	background-color:#e0e0eb;
-  margin-top: -15px;
+  margin-top: -10px;
   height: 80%;
   font-size: 25px;
 }
 
 .displaySlider {
-    box-shadow: 5px 10px 14px #888888;
+    box-shadow: 5px 10px 12px #888888;
     margin-left: 50px;
     margin-right: 20px;
     font-family: 'Nunito', sans-serif;
