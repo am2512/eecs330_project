@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lato', sans-serif;
+    
 }
 
 /*begin */
@@ -14,6 +14,7 @@ body {
 }
 
 #yAxis {
+  transform: rotate(-90deg);
   margin-top: 100px;
   font-size: 25px;
   display: inline-block;
@@ -27,6 +28,7 @@ body {
 }
 
 #part3DisplayBox {
+  background-color:#e0e0eb;
   margin-top: -15px;
   height: 80%;
   font-size: 25px;
@@ -34,7 +36,7 @@ body {
 
 .displaySlider {
     border-style: solid;
-    border-width: medium;
+    border-width: thin;
     border-color: black;
     margin-left: 50px;
     margin-right: 20px;
@@ -90,7 +92,7 @@ body {
 /*endnew*/
 
 #Threeslider {
-  margin-top: 15px;
+/*   margin-top: 1000px; */
   /*padding-top: -55px;*/
   width: 75%;
   cursor: pointer;
@@ -101,7 +103,9 @@ body {
   grid-column-end: 4;
   /*margin-top: 15px;*/
   /*width: 1500px;*/
-/*  display: flex;
+/*  di
+  
+  splay: flex;
   justify-content: center;*/
 }
 
@@ -110,14 +114,16 @@ body {
 }
 
 .subheader3 {
-  margin-top: -40px;
+  margin-top: -20px;
   font-size: 24px;
-  margin-bottom: -10px;
- font-family: "Arial", Times, serif;
+  margin-bottom: 0px;
+  
+ font-family: 'Nunito', sans-serif;
 
 }
 
 .backgroundColorSlider{
+/*  margin-top:500px; */
 /*    border-style: solid;
     border-width: medium;
     border-color: black;
@@ -144,14 +150,14 @@ body {
     border-width: medium;
     border-color: black;
     height: 50%;
-    width: 20%;
+    width: 40%;
     margin: 25px 2.25% 0px 2.25%;
     padding: 0px 0% 0px 0%;
-    font-family: 'Kalam', cursive;
-    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
     /*border: 0px;*/
     color: black;
-    background-color: #8a8b9b;
+    background-color: white;
     /*background-color: #A5F9FF;*/
     border-radius: 4px;
 }
@@ -161,11 +167,11 @@ body {
     width: 20%;
     margin: 25px 2.25% 0px 2.25%;
     padding: 0px 0% 0px 0%;
-    font-family: 'Kalam', cursive;
+    font-family: 'Nunito', sans-serif;
     font-size: 30px;
     /*border: 0px;*/
     color: black;
-    background-color: #4f8cef;
+    background-color: #0078D1;
     /*background-color: #A5F9FF;*/
     border-radius: 4px;
     /*box-shadow: 5px 10px #855dc2;  */
@@ -184,10 +190,14 @@ body {
 
 #myChart1 {
     float:left;
+    position: relative;
+    left: 200px;
 }
 
 #myChart2 {
     float:left;
+    position: relative;
+    left: 200px;
 }
 
 #Twoslider {
@@ -220,56 +230,64 @@ body {
 
 .headerbar {
     background-color: #CFBAFC;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     width: 100%;
     height: 100px;
-    margin: 0px 0px 0px 0px;
+    margin: auto;
     padding: 0px 0px 0px 0%;
     border: 0px;
+    font-color: #eee3ff;
 }
 
 .headerbutton {
-    height: 50%;
-    width: 20%;
-    margin: 25px 2.25% 0px 2.25%;
-    padding: 0px 0% 0px 0%;
-    font-family: 'Lato', sans-serif;
+    height: 100%;
+    width: 24.5%;
+    margin: 0px 0px 0px 0px;
+    padding-left:2px;
+    padding-right:2px;
+    font-family: 'Oxygen', sans-serif;
     font-size: 30px;
     border: 0px;
-    color: black;
+    color: #eee3ff;
     background-color: purple;
-    border-radius: 4px;
-    box-shadow: 5px 10px #855dc2;
+    
 }
 
+
 .headerbuttonSelected {
-    height: 50%;
-    width: 20%;
-    margin: 25px 2.25% 0px 2.25%;
-    padding: 0px 0% 0px 0%;
-    font-family: 'Lato', sans-serif;
+    height: 100%;
+    width: 24.5%;
+    margin: 0px 0px 0px 0px;
+    padding-left:2px;
+    padding-right:2px;
+    font-family: 'Oxygen', sans-serif;
     font-size: 30px;
     border: 0px;
-    color: black;
-    background-color: #FF00FF;
-    border-radius: 4px;
-    box-shadow: 5px 10px #855dc2;
+    color: #a580bf;
+    background-color: #eee3ff;
+    text-shadow: 1px 1px 1px  #c0b1ca ;
+    
+    
+    
 }
 
 /* Genreal Grid */
 
 .grid-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: grid;
+  font-family: 'Nunito', sans-serif;
   grid-template-columns: auto auto auto;
-  grid-gap: 10px;
+  grid-gap: 20px;
   background-color: #eee3ff;
-  padding: 10px;
+  padding: 35px;
 }
 .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
-  padding: 20px 0;
-  font-size: 35px;
+  padding: 20px 0px 20px 114px;
+  font-size: 28px;
   text-shadow: 2px 2px #e6d8fc;
 }
 
@@ -278,10 +296,7 @@ body {
 .item1 {
   grid-column-start: 1;
   grid-column-end: 3;
-  /*
-  display: flex;
-  justify-content: center;
-  */
+  
 }
 
 /* item2 is never used, here is dropdown */
@@ -290,7 +305,7 @@ body {
     background-color: #4CAF50;
     color: white;
     /*padding: 16px;*/
-    font-size: 16px;
+    font-size: 14px;
     border: none;
     cursor: pointer;
     width: 10%;
@@ -298,6 +313,7 @@ body {
     display: flex;
     justify-content: center;
     align-self: center;
+  
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -311,11 +327,12 @@ body {
 
 .dropdown-content {
     /*padding-top: 100px;*/
+    font-size:20px;
     margin-top: 25px;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 350px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -332,17 +349,18 @@ body {
 .show {display:block;}
 
 .dropdown {
-	display: flex;
-	padding-top: 45px;
-	justify-content: center;
+  display: flex;
+  padding-top: 41px;
+  justify-content: center;
 
 }
 
 #question1Input {
-	height: 25%;
-	width: 75%;
-	align-self: center;
-	justify-content: center;
+  height: 25%;
+  width: 75%;
+  align-self: center;
+  justify-content: center;
+  font-size:16px;
 }
 
 
@@ -356,53 +374,61 @@ body {
 /* tem 4 */
 
 .item4 {
-	width: 100%;
-	align-self: center;
+  width: 100%;
 }
 
 .badSlider {
-	width: 25%;
-	
-	color: #FF8080;
-	
-	margin-left: 0px;
-	margin-right: -60px;
-	/* this is a stop gap solution */
-	
-	display: inline-block;
-	justify-content: center;
-	align-self: center;
-	justify-content: center;
+  width: 25%;
+  
+  color: #FF8080;
+  
+  margin-left: 0px;
+  margin-right: -60px;
+  /* this is a stop gap solution */
+  
+  display: inline-block;
+  justify-content: center;
+  align-self: center;
+  justify-content: center;
 
 }
 
 .slidercontainer {
-	/*
+  /*
     height: 40px;
     margin-left: 250px;
     width: 50px;
     float: center;
-	*/
-	
-	width:50%;
-	display: inline-block;
-	justify-content: center;
-	align-self: center;
-	justify-content: center;
+  */
+    /* MAGIC HAPPENS HERE */
+/*     transform: translateZ(0);
+    -webkit-transform: translateZ(0); */
+/*  50 original
+  maring left -20px */
+  width:95%;
+  display: inline-block;
+  justify-content: center;
+  margin-left: 2px;
+  align-self: center;
+  justify-content: center;
+}
+
+#myRange {
+width:90%;
 }
 
 .goodSlider {
-	width: 25%;
-	
-	color: #74d16e;
-	
-	margin-left: 0px;
-	margin-right: 0px;
-	
-	display: inline;
-	justify-content: center;
-	align-self: center;
-	justify-content: center;
+  width: 25%;
+  
+  color: #74d16e;
+  
+  margin-left: -25px;
+  margin-right: 0px;
+  
+  display: inline;
+  justify-content: center;
+  align-self: center;
+  justify-content: center;
 
 }
 
@@ -412,30 +438,32 @@ body {
   grid-column-start: 1;
   grid-column-end: 3;
   display: flex;
-  justify-content: center;
+  padding-left:150px;
+  
+  
 }
 
 /*tem 6 */
 
 .item6 {
-	padding-top: 45px;
+  padding-top: 30px;
 
 }
 
 #duration-val2 {
-		margin-top: 45px;
-    font-family: 'Kalam', cursive;
-	font-size:25px;
-	width:100px;
-	text-align: center;
+    margin-top: 30px;
+    font-family: 'Nunito', sans-serif;
+  font-size:18px;
+  width:650px;
+  text-align: left;
 }
 
 #duration-val1 {
-    margin-top: 45px;
-    font-family: 'Kalam', cursive;
-  font-size:25px;
-  width:100px;
-  text-align: center;
+    margin-top: 30px;
+    font-family: 'Nunito', sans-serif;
+  font-size:18px;
+  width:650px;
+  text-align: left;
 }
 
 /* item 7 */
@@ -446,12 +474,12 @@ body {
 }
 .goodcolor {
     height: 45px;
-    width: 100px;
+    width: 70px;
     margin: 5px;
     border: 2px;
     background-color: #71FF95;
     color: black;
-    font-family: 'Kalam', cursive;
+    font-family: 'Nunito', sans-serif;
     font-size: 20px;
     border-radius: 8px;
     box-shadow: 3px 5px #c8b9df;
@@ -459,13 +487,13 @@ body {
 
 .badcolor {
     height: 45px;
-    width: 100px;
+    width: 70px;
     margin: 5px;
     border: 2px;
     border: 2px;
     background-color: #FF8080;
     color: black;
-    font-family: 'Kalam', cursive;
+    font-family: 'Nunito', sans-serif;
     font-size: 20px;
     border-radius: 8px;
     box-shadow: 3px 5px #c8b9df;
@@ -478,21 +506,253 @@ body {
 }
 
 .submitbutton {
-	/*
+  /*
     height: 45px;
     width: 200px;
     margin-top: 30px;
     margin-left:180px;
     */
-	  border: 2px;
-    font-family: 'Kalam', cursive;
+    border: 2px;
+    font-family: 'Nunito', sans-serif;
     font-size: 30px;
     color: black;
     background-color: #A5F9FF;
-	  padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
     border-radius: 8px;
     box-shadow: 5px 10px #855dc2;
 }
+
+/* PIE CHART */
+svg {
+  /*filter: url('#dropshadow');*/
+}
+
+path {
+  cursor: pointer;
+  stroke: #ccc;
+  stroke-width: 0px;
+}
+
+
+
+/* .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 4px;
+  bottom: 1px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+} */
+
+input:checked + .slider {
+  background-color: purple;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 25px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Tabs */
+
+#header {
+    background-color: white;
+  }
+
+#header ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      background: white;
+      float: center;
+      
+  }
+
+#header li {
+      float: left;
+      margin: 0 1em 0 0;
+    }
+
+#header a {
+      text-decoration: none;
+      display: block;
+      width: 6em;
+      padding: 0 0.5em;
+      font-weight: bold;
+      border-bottom: 0.5em solid purple;
+      color: purple;
+    }
+
+#header a:hover {
+      color: #af8cd8;
+      border-color: #af8cd8;
+    }
+
+#header #selected a {
+      color: #CFBAFC;
+      border-color: #CFBAFC;
+    }
+
+
+/*  RADIO BUTTONS  */
+
+.mdl-radio__button {
+height: 1em;
+width:3em;
+
+}
+
+
+/* Styling for toggle buttons for emotions on index.html */
+
+.item7 {
+  display:inline-block;
+}
+
+/*#emotion-labels {
+width:400px;
+padding-left:550px;
+float:left;
+font-size:16px;
+  
+}*/
+
+#emotion_header {
+float:left;
+text-align:left;
+width:600px;
+height:200px;
+margin-right:320px;
+}
+
+
+
+/* Submit button */
+#submit_button {
+margin-top:0px;
+margin-left: 20px;
+width:1000px;
+height:90px;
+}
+
+
+.nonHeadActivitiesButtons {
+padding: 20px 0px 0px 0px;
+}
+
+
+/*  ADJUSTING PADDING FOR GRID ITEMS 2,4,6  */
+
+.item2 {
+}
+
+/* EMOTION LIST */
+
+.ebutton {
+    background-color: white; /* Green */
+    border: 2px solid #a580bf;
+    color: #a580bf;
+    padding: 11px 46px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.ebutton1 {
+    background-color: white; 
+    color: #a580bf; 
+    border: 2px solid #a580bf;
+}
+
+#ebutton1:hover {
+    background-color:#a580bf;
+    color: white;
+}
+
+.ebutton2 {
+    background-color: white; 
+    color: #a580bf; 
+    border: 2px solid #a580bf;
+}
+
+#ebutton2:hover {
+    background-color:#a580bf;
+    color: white;
+}
+
+.ebutton3 {
+    background-color: white; 
+    color: #a580bf; 
+    border: 2px solid #a580bf;
+}
+
+#ebutton3:hover {
+    background-color:#a580bf;
+    color: white;
+}
+
+.ebutton4 {
+    background-color: white;
+    color: #a580bf; 
+    border: 2px solid #a580bf;
+}
+
+#ebutton4:hover {background-color:#a580bf;
+color:white;}
+
+.ebuttonnew {
+    background-color: #a580bf; 
+    border: none;
+    color: white;
+    padding: 11px 46px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+.checkBoxesContainer {
+padding-left:130px;
+padding-right:2px;}
 
 .settingsbutton {
 	/*
@@ -530,19 +790,6 @@ body {
     border-radius: 8px;
     box-shadow: 5px 10px #855dc2;
 }
-
-/* PIE CHART */
-svg {
-  /*filter: url('#dropshadow');*/
-}
-
-path {
-  cursor: pointer;
-  stroke: #ccc;
-  stroke-width: 0px;
-}
-
-/* General */
 
 nav ul{height:100px; width:78%;}
 nav ul{overflow:hidden; overflow-y:scroll;}
