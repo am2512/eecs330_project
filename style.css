@@ -404,12 +404,14 @@ body {
     float: center;
 	*/
 	  /* MAGIC HAPPENS HERE */
-    transform: translateZ(0);
-    -webkit-transform: translateZ(0);
-	width:50%;
+/*     transform: translateZ(0);
+    -webkit-transform: translateZ(0); */
+/* 	50 original
+	maring left -20px */
+	width:60%;
 	display: inline-block;
 	justify-content: center;
-	margin-left: -20px;
+	margin-left: 0px;
 	align-self: center;
 	justify-content: center;
 }
