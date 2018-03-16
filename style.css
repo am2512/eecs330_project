@@ -413,7 +413,7 @@ body {
     -webkit-transform: translateZ(0); */
 /* 	50 original
 	maring left -20px */
-	width:90%;
+	width:95%;
 	display: inline-block;
 	justify-content: center;
 	margin-left: 2px;
@@ -430,7 +430,7 @@ width:90%;
 	
 	color: #74d16e;
 	
-	margin-left: 5px;
+	margin-left: -5px;
 	margin-right: 0px;
 	
 	display: inline;
@@ -462,7 +462,7 @@ width:90%;
 		margin-top: 30px;
     font-family: 'Nunito', sans-serif;
 	font-size:18px;
-	width:620px;
+	width:640px;
 	text-align: left;
 }
 
@@ -470,7 +470,7 @@ width:90%;
     margin-top: 30px;
     font-family: 'Nunito', sans-serif;
   font-size:18px;
-  width:620px;
+  width:640px;
   text-align: left;
 }
 
@@ -666,8 +666,8 @@ margin-right:320px;
 
 /* Submit button */
 #submit_button {
-padding-top:15px;
-margin-left: 100px;
+padding-top:25px;
+margin-left: -100px;
 width:1000px;
 }
 
@@ -689,7 +689,7 @@ padding: 20px 0px 0px 0px;
     background-color: purple; /* Green */
     border: none;
     color: white;
-    padding: 11px 40px;
+    padding: 11px 42px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
