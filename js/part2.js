@@ -3,8 +3,13 @@ toggle between hiding and showing the dropdown content */
 
 // data-old-value="300" 
 // document.getElementById("Twoslider").dataset.binaryString = '1111'
-document.getElementById("button-1-1").style.backgroundColor = "#FFFFFF"
-document.getElementById("button-1-1").style.color = "#a580bf"
+document.getElementById("button-1-1").style.backgroundColor = "#a580bf"
+document.getElementById("button-1-1").style.color = "#FFFFFF"
+
+      document.getElementById("button-0-1").style.backgroundColor = "#FFFFFF" 
+      document.getElementById("button-0-1").style.color = "#a580bf"
+      document.getElementById("button-2-1").style.backgroundColor = "#FFFFFF"
+      document.getElementById("button-2-1").style.color = "#a580bf"
 
 var globalLabels = ["Playing Piano", "Meditation", "Homework", "Working Out"]
 var globalBackgroundColors = ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"]
