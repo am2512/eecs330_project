@@ -8,7 +8,7 @@ body {
 /*begin part3*/
 
 #xAxis {
-  margin-top: -25px;
+  margin-top: -20px;
   font-size: 25px;
 
 }
@@ -38,7 +38,7 @@ body {
 .displaySlider {
     box-shadow: 5px 10px 12px #888888;
     margin-left: 245px;
-    margin-right: 240px;
+    margin-right: 250px;
     font-family: 'Nunito', sans-serif;
     
 }
@@ -94,7 +94,7 @@ body {
 #Threeslider {
 /*   margin-top: 1000px; */
   /*padding-top: -55px;*/
-  width: 73%;
+  width: 71%;
   cursor: pointer;
 }
 
