@@ -102,10 +102,10 @@ function setAll() {
     
   counter = 0
   lineLabels = []
-  if (document.getElementById("button-0-1").style.backgroundColor === "#FFFFFF"){
+  if (document.getElementById("button-0-1").style.backgroundColor === "#a580bf"){
       counter = 24
       lineLabels = xAxisLine[0]
-  } else if (document.getElementById("button-1-1").style.backgroundColor === "#FFFFFF"){
+  } else if (document.getElementById("button-1-1").style.backgroundColor === "#a580bf"){
       counter = 7
       lineLabels = xAxisLine[1]
   } else {
