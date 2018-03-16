@@ -295,8 +295,7 @@ body {
   grid-column-start: 1;
   grid-column-end: 3;
   display: flex;
-  justify-content: center;
-	padding-left:250px;
+  
 }
 
 /* item2 is never used, here is dropdown */
@@ -370,7 +369,7 @@ body {
   grid-column-end: 3;
   display: flex;
   
-  padding-left:250px;
+  
 }
 
 /* tem 4 */
@@ -440,7 +439,7 @@ body {
   grid-column-start: 1;
   grid-column-end: 3;
   display: flex;
-  padding-left:250px;
+  padding-left:150px;
   
 	
 }
