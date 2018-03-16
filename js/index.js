@@ -121,19 +121,18 @@ function resetInputs() {
 
 
 
-//changing emotion button colors
+
+function changeID(elm){
+    var NAME = elm;
+    var currentClass = NAME.className;
+    if (currentClass == "ebutton") { 
+        NAME.className = "ebuttonnew";   
+    } else {
+        NAME.className = "ebutton";  
+    }
+}
 
 
-var el = document.getElementById('ebutton1');
 
-el.addEventListener('click', function() {
-  if(this.style.backgroundColor === 'purple') {
-    this.style.backgroundColor = '';
-  }      
-  else {
-    this.style.backgroundColor = 'white';
-  }      
-
-});
   
 
