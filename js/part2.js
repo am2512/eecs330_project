@@ -116,7 +116,7 @@ function setAll() {
           k = k+1
       }
   }
-    
+  console.log(localLineData)  
     
   console.log('hey');
   myBarChart.destroy()
