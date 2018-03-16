@@ -89,14 +89,14 @@ function submitTask() {
   hhmm1 = document.getElementById("duration-val1").value
   hhmm2 = document.getElementById("duration-val2").value
   if (reHHMM.test(hhmm1) != true ) {
-    returnString = returnString + 'Poorly formatted duration input. Cannot log task. Change the input to succsefully log.\n'
+    returnString = returnString + 'Poorly formatted duration input. Cannot log task. Change the input to successfully log.\n'
   }
   if (reHHMM.test(hhmm2) != true ) {
-    returnString = returnString + 'Poorly formatted start time input. Cannot log task. Change the input to succsefully log.\n'
+    returnString = returnString + 'Poorly formatted start time input. Cannot log task. Change the input to successfully log.\n'
   }
 
   if (returnString == '') {
-    returnString = 'Task succsefully logged. Feel free to add another.'
+    returnString = 'Task successfully logged. Feel free to add another.'
     resetInputs();
   }
 
