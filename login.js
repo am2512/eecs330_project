@@ -21,7 +21,7 @@
         console.log('thsadffdsere4')
 //         window.event.returnValue = false;
 //         alert("Rerouting. Account succsefully made. Click to Continue.")
-        document.location.href = "createaccount.html";
+        document.location.href = "index.html";
         console.log('there1')
         return 0 
      } else {
