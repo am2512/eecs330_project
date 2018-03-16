@@ -635,12 +635,20 @@ width:3em;
 
 #emotion-labels {
 width:300px;
+float:left;
+padding-left:300px;
+	
 }	
 
 #toggles {
 width:300px;
+padding-left:200px;
 }
 
+/* Submit button */
+.submit_wrapper {
+margin:auto;
+}
 
 
 
