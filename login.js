@@ -1,5 +1,7 @@
  function isEmpty(){ 
     console.log('here')
+  document.location.href = "createaccount.html";
+  return 0;
      var alertString = ''
      var uName =  document.getElementById("username").value
      var pWord = document.getElementById("password").value
