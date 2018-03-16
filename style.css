@@ -5,7 +5,8 @@ body {
 /*begin */
 
 #submit_button{
-	margin-left: -200px;
+	margin-left: -100px;
+	left: -200px
 }
 
 /*begin part3*/
