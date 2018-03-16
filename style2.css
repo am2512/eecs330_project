@@ -163,11 +163,11 @@ body {
 
 .activitiesButton {
     height: 50%;
-    width: 20%;
+    width: 15%;
     margin: 25px 2.25% 0px 2.25%;
     padding: 0px 0% 0px 0%;
     font-family: 'Nunito', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     /*border: 0px;*/
     color: black;
     background-color: #0078D1;
