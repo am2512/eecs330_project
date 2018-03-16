@@ -659,8 +659,8 @@ width:500px;
 }
 
 /* Submit button */
-.submit_wrapper {
-text-align:center;
+#submit_button {
+width=100%;
 }
 
 
