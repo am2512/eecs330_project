@@ -763,9 +763,45 @@ color:white;}
 padding-left:130px;
 padding-right:2px;}
 
+.settingsbutton {
+	/*
+    height: 45px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left:180px;
+    */
+	  border: 2px;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    color: black;
+    background-color: #A5F9FF;
+	  padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    box-shadow: 5px 10px #855dc2;
+}
+.settingsbutton2 {
+	  border: 2px;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    color: black;
+    background-color: #FF0000;
+	  padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    box-shadow: 5px 10px #855dc2;
+}
+.settingsbutton3 {
+	  border: 2px;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    color: black;
+    background-color: #00FF00;
+	  padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    box-shadow: 5px 10px #855dc2;
+}
 
-
-
+nav ul{height:100px; width:78%;}
+nav ul{overflow:hidden; overflow-y:scroll;}
 
 
 
