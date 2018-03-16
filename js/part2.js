@@ -269,7 +269,7 @@ function setActive(id) {
     element.setAttribute('data-button', '7');
   } else {
     element.style.backgroundColor = "#800080"
-    element.style.color = "#800080"
+    element.style.color = "#FFFFFF"
     console.log('asf')
     element.setAttribute('data-button', '0');
   }
