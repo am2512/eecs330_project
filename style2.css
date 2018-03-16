@@ -18,14 +18,14 @@ body {
   margin-top: 120px;
   font-size: 25px;
   display: inline-block;
-  margin-left: -160px;
+  margin-left: -165px;
   position:relative;
-  top:-200px;
+  top:-250px;
 }
 
 #graphImage {
   display: inline-block;
- box-shadow: 3px 7px 8px #888888;
+ box-shadow: 2px 5px 5px #888888;
 }
 
 #part3DisplayBox {
@@ -93,7 +93,7 @@ body {
 #Threeslider {
 /*   margin-top: 1000px; */
   /*padding-top: -55px;*/
-  width: 75%;
+  width: 73%;
   cursor: pointer;
 }
 
