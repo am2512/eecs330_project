@@ -10,7 +10,7 @@ var globalData = [.5,2,6,5]
 var xAxisLine = [
     ["12:00AM","1:00AM","2:00AM","3:00AM","4:00AM","5:00AM","6:00AM","7:00AM","8:00AM","9:00AM","10:00AM","11:00AM","12:00PM","1:00PM","2:00PM","3:00PM","4:00PM","5:00PM","6:00PM","7:00PM","8:00PM","9:00PM","10:00PM","11:00PM"],
     ["Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28"],
-    ["Feb 1","Feb 2","Feb 3","Feb 4","Feb 5","Feb 6","Feb 7","Feb 8","Feb 9","Feb 10","Feb 11", "Feb 12"."Feb 13","Feb 14","Feb 15","Feb 16","Feb 17","Feb 18","Feb 19", "Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27", "Feb 28"]
+    ["Feb 1","Feb 2","Feb 3","Feb 4","Feb 5","Feb 6","Feb 7","Feb 8","Feb 9","Feb 10","Feb 11", "Feb 12","Feb 13","Feb 14","Feb 15","Feb 16","Feb 17","Feb 18","Feb 19", "Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27", "Feb 28"]
 ]
 
 
