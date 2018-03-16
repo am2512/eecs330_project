@@ -111,11 +111,11 @@ function resetInputs() {
   // This can probably be improved by using the .activitiesButton.color attribute
   // set in style.css, rather than the magic value #ccffff, but I don't know
   // how to do that yet
-  document.getElementById("button1").style.backgroundColor = "#4f8cef"
-  document.getElementById("button2").style.backgroundColor = "#4f8cef"
-  document.getElementById("button3").style.backgroundColor = "#4f8cef"
-  document.getElementById("button4").style.backgroundColor = "#4f8cef"
-  document.getElementById("button5").style.backgroundColor = "#4f8cef"
+  document.getElementById("ebutton ebutton1").style.backgroundColor = "white"
+  document.getElementById("ebutton ebutton2").style.backgroundColor = "#white"
+  document.getElementById("ebutton ebutton3").style.backgroundColor = "#white"
+  document.getElementById("ebutton ebutton4").style.backgroundColor = "#white"
+  document.getElementById("ebutton ebutton5").style.backgroundColor = "#white"
   console.log('asdfa');
 }
 
