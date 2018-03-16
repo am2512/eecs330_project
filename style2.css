@@ -665,25 +665,32 @@ width:1000px;
 
 
 #button1:hover {
- background-color: #D9F1FE; 
+ background-color: #FFFFFF;
+ color: "#800080";
 }
 #button2:hover {
- background-color: #D9F1FE; 
+ background-color: #FFFFFF; 
+	color: "#800080";
 }
 #button3:hover {
- background-color: #D9F1FE; 
+ background-color: #FFFFFF; 
+	color: "#800080";
 }
 #button4:hover {
- background-color:#D9F1FE; 
+ background-color:#FFFFFF; 
+	color: "#800080";
 }
 #button-0-1:hover {
-background-color: #D9F1FE; 
+background-color: #FFFFFF; 
+	color: "#800080";
 }
 #button-1-1:hover {
-background-color: #D9F1FE; 
+background-color: #FFFFFF; 
+	color: "#800080";
 }
 #button-2-1:hover {
 background-color: #D9F1FE; 
+	color: "#800080";
 }
 
 
