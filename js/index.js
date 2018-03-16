@@ -57,6 +57,7 @@ window.onclick = function(event) {
       }
     }
     document.getElementById("myRange").style.display = "block"
+    console.log('block')
     document.getElementById("question1Input").dataset.binary = "0";
 //     if (doc === "1"){
       
@@ -71,6 +72,7 @@ window.onclick = function(event) {
 //         x.style.display = "none";
 //     }
   } else {
+    console.log('none')
     document.getElementById("myRange").style.display = "none"
     document.getElementById("question1Input").dataset.binary = "1";
   }
