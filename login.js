@@ -2,7 +2,7 @@
     console.log('here')
   document.location.href = "createaccount.html";
   console.log(document.location.href)
-  return 0;
+  return false;
 //      var alertString = ''
 //      var uName =  document.getElementById("username").value
 //      var pWord = document.getElementById("password").value
