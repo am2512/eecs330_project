@@ -15,10 +15,10 @@ body {
 
 #yAxis {
   transform: rotate(-90deg);
-  margin-top: 100px;
+  margin-top: 80px;
   font-size: 25px;
   display: inline-block;
-  margin-left: -145px;
+  margin-left: -150px;
   position:relative;
   top:-160px;
 }
