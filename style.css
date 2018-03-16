@@ -296,6 +296,7 @@ body {
   grid-column-end: 3;
   display: flex;
   justify-content: center;
+	padding-left:250px;
 }
 
 /* item2 is never used, here is dropdown */
@@ -312,6 +313,7 @@ body {
     display: flex;
     justify-content: center;
     align-self: center;
+	
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -367,7 +369,8 @@ body {
   grid-column-start: 1;
   grid-column-end: 3;
   display: flex;
-  justify-content: center;
+  
+  padding-left:250px;
 }
 
 /* tem 4 */
@@ -437,7 +440,9 @@ body {
   grid-column-start: 1;
   grid-column-end: 3;
   display: flex;
-  justify-content: center;
+  padding-left:250px;
+  
+	
 }
 
 /*tem 6 */
