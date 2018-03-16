@@ -639,6 +639,10 @@ float:left;
 padding-left:300px;
 	
 }	
+#emotion_header {
+float:left;
+width:500px;
+}
 
 #toggles {
 width:300px;
@@ -648,8 +652,7 @@ padding-left:200px;
 
 /* Submit button */
 .submit_wrapper {
-display:table;
-margin: 0 auto;
+text-align:center;
 }
 
 
