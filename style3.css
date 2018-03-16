@@ -1,0 +1,556 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/*begin */
+
+
+/*begin part3*/
+
+#xAxis {
+  margin-top: -30px;
+  font-size: 25px;
+
+}
+
+#yAxis {
+  margin-top: 100px;
+  font-size: 25px;
+  display: inline-block;
+  margin-left: -145px;
+  position:relative;
+  top:-160px;
+}
+
+#graphImage {
+  display: inline-block;
+}
+
+#part3DisplayBox {
+  margin-top: -15px;
+  height: 80%;
+  font-size: 25px;
+}
+
+.displaySlider {
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    margin-left: 50px;
+    margin-right: 20px;
+    font-family: "Arial", Times, serif;
+}
+
+/*new*/
+
+/*for index.thml*/
+.slider1 { 
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;   
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;   
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    /*background: #4f8cef;*/
+    background: orange;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4f8cef;
+    cursor: pointer;
+}
+
+/*endnew*/
+
+#Threeslider {
+  margin-top: 15px;
+  /*padding-top: -55px;*/
+  width: 75%;
+  cursor: pointer;
+}
+
+.Three-item1{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  /*margin-top: 15px;*/
+  /*width: 1500px;*/
+/*  display: flex;
+  justify-content: center;*/
+}
+
+.header3 {
+  margin-top: -15px;
+}
+
+.subheader3 {
+  margin-top: -40px;
+  font-size: 24px;
+  margin-bottom: -10px;
+ font-family: "Arial", Times, serif;
+
+}
+
+.backgroundColorSlider{
+/*    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    margin-left: 20px;
+    margin-right: 20px;*/
+  /*background: #9672d8;*/
+}
+
+
+/*##item1*/
+
+.Two-item1{
+  grid-column-start: 1;
+  grid-column-end: 4;
+/*  display: flex;
+  justify-content: center;*/
+}
+
+.headActivitiesButtons {
+}
+
+.headActivitiesButton {
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    height: 50%;
+    width: 20%;
+    margin: 25px 2.25% 0px 2.25%;
+    padding: 0px 0% 0px 0%;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    /*border: 0px;*/
+    color: black;
+    background-color: #8a8b9b;
+    /*background-color: #A5F9FF;*/
+    border-radius: 4px;
+}
+
+.activitiesButton {
+    height: 50%;
+    width: 20%;
+    margin: 25px 2.25% 0px 2.25%;
+    padding: 0px 0% 0px 0%;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    /*border: 0px;*/
+    color: black;
+    background-color: #4f8cef;
+    /*background-color: #A5F9FF;*/
+    border-radius: 4px;
+    /*box-shadow: 5px 10px #855dc2;  */
+}
+
+/*item2*/
+.Two-item2 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  
+}
+
+#myChart {
+    float:left;
+}
+
+#myChart1 {
+    float:left;
+}
+
+#myChart2 {
+    float:left;
+}
+
+#Twoslider {
+    width: 75%;
+
+}
+
+.sliderText{
+    width: 25%;
+    display:inline-block;
+    margin-bottom: -50px;
+}
+
+#day {
+    text-align: left;
+}
+
+#week {
+    text-align: center;
+}
+
+#month {
+    text-align: right;s
+}
+
+/*item
+/* I'm organizing our CSS */
+
+/* Header */
+
+.headerbar {
+    background-color: #CFBAFC;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 100px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0%;
+    border: 0px;
+}
+
+.headerbutton {
+    height: 50%;
+    width: 20%;
+    margin: 25px 2.25% 0px 2.25%;
+    padding: 0px 0% 0px 0%;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    border: 0px;
+    color: black;
+    background-color: purple;
+    border-radius: 4px;
+    box-shadow: 5px 10px #855dc2;
+}
+
+.headerbuttonSelected {
+    height: 50%;
+    width: 20%;
+    margin: 25px 2.25% 0px 2.25%;
+    padding: 0px 0% 0px 0%;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    border: 0px;
+    color: black;
+    background-color: #FF00FF;
+    border-radius: 4px;
+    box-shadow: 5px 10px #855dc2;
+}
+
+/* Genreal Grid */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #eee3ff;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 35px;
+  text-shadow: 2px 2px #e6d8fc;
+}
+
+/* item 1 */
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  /*
+  display: flex;
+  justify-content: center;
+  */
+}
+
+/* item2 is never used, here is dropdown */
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    /*padding: 16px;*/
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    /*height: 5%;*/
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+/*.dropdown {
+    position: relative;
+    display: inline-block;
+}*/
+
+.dropdown-content {
+    /*padding-top: 100px;*/
+    margin-top: 25px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+.dropdown {
+	display: flex;
+	padding-top: 45px;
+	justify-content: center;
+
+}
+
+#question1Input {
+	height: 25%;
+	width: 75%;
+	align-self: center;
+	justify-content: center;
+}
+
+
+/* item 3 */
+
+.item3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+/* tem 4 */
+
+.item4 {
+	width: 100%;
+	align-self: center;
+}
+
+.badSlider {
+	width: 25%;
+	
+	color: #FF8080;
+	
+	margin-left: 0px;
+	margin-right: -60px;
+	/* this is a stop gap solution */
+	
+	display: inline-block;
+	justify-content: center;
+	align-self: center;
+	justify-content: center;
+
+}
+
+.slidercontainer {
+	/*
+    height: 40px;
+    margin-left: 250px;
+    width: 50px;
+    float: center;
+	*/
+	
+	width:50%;
+	display: inline-block;
+	justify-content: center;
+	align-self: center;
+	justify-content: center;
+}
+
+.goodSlider {
+	width: 25%;
+	
+	color: #74d16e;
+	
+	margin-left: 0px;
+	margin-right: 0px;
+	
+	display: inline;
+	justify-content: center;
+	align-self: center;
+	justify-content: center;
+
+}
+
+/*tem 5 */
+
+.item5 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  justify-content: center;
+}
+
+/*tem 6 */
+
+.item6 {
+	padding-top: 45px;
+
+}
+
+#duration-val2 {
+		margin-top: 45px;
+    font-family: 'Kalam', cursive;
+	font-size:25px;
+	width:100px;
+	text-align: center;
+}
+
+#duration-val1 {
+    margin-top: 45px;
+    font-family: 'Kalam', cursive;
+  font-size:25px;
+  width:100px;
+  text-align: center;
+}
+
+/* item 7 */
+
+.item7 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.goodcolor {
+    height: 45px;
+    width: 100px;
+    margin: 5px;
+    border: 2px;
+    background-color: #71FF95;
+    color: black;
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 3px 5px #c8b9df;
+}
+
+.badcolor {
+    height: 45px;
+    width: 100px;
+    margin: 5px;
+    border: 2px;
+    border: 2px;
+    background-color: #FF8080;
+    color: black;
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 3px 5px #c8b9df;
+}
+
+
+.item8 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.submitbutton {
+	/*
+    height: 45px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left:180px;
+    */
+	  border: 2px;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    color: black;
+    background-color: #A5F9FF;
+	  padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    box-shadow: 5px 10px #855dc2;
+}
+
+.settingsbutton {
+	/*
+    height: 45px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left:180px;
+    */
+	  border: 2px;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    color: black;
+    background-color: #A5F9FF;
+	  padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    box-shadow: 5px 10px #855dc2;
+}
+.settingsbutton2 {
+	  border: 2px;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    color: black;
+    background-color: #FF0000;
+	  padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    box-shadow: 5px 10px #855dc2;
+}
+.settingsbutton3 {
+	  border: 2px;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    color: black;
+    background-color: #00FF00;
+	  padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    box-shadow: 5px 10px #855dc2;
+}
+
+/* PIE CHART */
+svg {
+  /*filter: url('#dropshadow');*/
+}
+
+path {
+  cursor: pointer;
+  stroke: #ccc;
+  stroke-width: 0px;
+}
+
+/* General */
+
+nav ul{height:100px; width:78%;}
+nav ul{overflow:hidden; overflow-y:scroll;}
+
+
+
+
+
+
+
+ 
