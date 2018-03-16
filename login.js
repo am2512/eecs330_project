@@ -15,7 +15,7 @@
      }
      if (alertString.length === 0) {
         console.log('there4')
-        window.event.returnValue = false;
+//         window.event.returnValue = false;
         document.location.href = "index.html";
         console.log('there1')
         return 0 
