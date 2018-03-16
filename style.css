@@ -306,7 +306,7 @@ body {
     background-color: #4CAF50;
     color: white;
     /*padding: 16px;*/
-    font-size: 16px;
+    font-size: 14px;
     border: none;
     cursor: pointer;
     width: 10%;
@@ -457,16 +457,16 @@ body {
 #duration-val2 {
 		margin-top: 30px;
     font-family: 'Nunito', sans-serif;
-	font-size:25px;
-	width:250px;
+	font-size:24px;
+	width:350px;
 	text-align: center;
 }
 
 #duration-val1 {
     margin-top: 30px;
     font-family: 'Nunito', sans-serif;
-  font-size:25px;
-  width:250px;
+  font-size:24px;
+  width:350px;
   text-align: center;
 }
 
@@ -643,7 +643,7 @@ width:3em;
 }
 
 #emotion-labels {
-width:500px;
+width:200px;
 float:left;
 padding-left:600px;
 font-size:15px;
@@ -669,6 +669,12 @@ width:1000px;
 padding: 20px 0px 0px 0px;
 }
 
+
+/*  ADJUSTING PADDING FOR GRID ITEMS 2,4,6  */
+
+.item2 {
+padding: 20px 0px 0px 0px;
+}
 
 
 
