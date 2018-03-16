@@ -112,7 +112,7 @@ function setAll() {
       k = 0
       localLineData.push([])
       while(k<counter) {
-          localLineData[j].push(lineData[k])
+          localLineData[j].push(lineData[j][k])
           k = k+1
       }
   }
