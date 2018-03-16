@@ -103,6 +103,7 @@ function setAll() {
   counter = 0
   lineLabels = []
   console.log(document.getElementById("button-0-1").style.backgroundColor)
+  console.log(typeof document.getElementById("button-0-1").style.backgroundColor)
   if (document.getElementById("button-0-1").style.backgroundColor == "#a580bf"){
       counter = 24
       lineLabels = xAxisLine[0]
