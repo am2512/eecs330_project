@@ -666,7 +666,8 @@ margin-right:320px;
 
 /* Submit button */
 #submit_button {
-padding-top:50px;
+padding-top:10px;
+margin-left: 200px;
 width:1000px;
 }
 
@@ -685,7 +686,7 @@ padding: 20px 0px 0px 0px;
 /* EMOTION LIST */
 
 .ebutton {
-    background-color: #4CAF50; /* Green */
+    background-color: purple; /* Green */
     border: none;
     color: white;
     padding: 11px 40px;
