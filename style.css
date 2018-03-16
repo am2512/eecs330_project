@@ -413,12 +413,16 @@ body {
     -webkit-transform: translateZ(0); */
 /* 	50 original
 	maring left -20px */
-	width:99%;
+	width:80%;
 	display: inline-block;
 	justify-content: center;
 	margin-left: 2px;
 	align-self: center;
 	justify-content: center;
+}
+
+#myRange {
+width:90%;
 }
 
 .goodSlider {
