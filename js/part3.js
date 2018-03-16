@@ -73,7 +73,7 @@ function changeText() {
 		document.getElementById("Threeslider").value = value
 	}
 	console.log('valueudpated');
-	document.getElementById("Threeslider").value = value
+	console.log('asdfasf');
 	document.getElementById("Threeslider").dataset.oldvalue = value
 	value = ( value / 100 ).toString()
 	document.getElementById("part3DisplayBox").innerHTML = textBoxDisplays[value]
