@@ -4,6 +4,8 @@ toggle between hiding and showing the dropdown content */
 // data-old-value="300" 
 // document.getElementById("Twoslider").dataset.binaryString = '1111'
 document.getElementById("button-1-1").style.backgroundColor = "#FFFFFF"
+document.getElementById("button-1-1").style.color = "#800080"
+
 var globalLabels = ["Playing Piano", "Meditation", "Homework", "Working Out"]
 var globalBackgroundColors = ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"]
 var globalData = [.5,2,6,5]
@@ -235,6 +237,7 @@ myBarChart = new Chart(document.getElementById("bar-chart"), {
  }
 function setActiveTwo(id) {
   document.getElementById(id).style.backgroundColor = "#FFFFFF"
+    document.getElementById(id).style.color = "#800080"
   document.getElementById(id).setAttribute('data-button', '7')
   if (id === "button-0-1") {
       console.log('here')
