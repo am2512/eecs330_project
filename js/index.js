@@ -123,8 +123,8 @@ function resetInputs() {
 
 //changing emotion button colors
 
-function colorChange(){
-  var el = document.getElementById('ebutton1');
+
+var el = document.getElementById('ebutton1');
 
 el.addEventListener('click', function() {
   if(this.style.backgroundColor === 'purple') {
@@ -133,5 +133,7 @@ el.addEventListener('click', function() {
   else {
     this.style.backgroundColor = 'white';
   }      
-}
+
 });
+  
+
