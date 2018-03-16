@@ -62,7 +62,7 @@ function changeText() {
 	if (value == 400){
 		console.log("at 400");
 		console.log(value+200);
-		document.getElementById("Threeslider").value = value+200
+		document.getElementById("Threeslider").value = value+5
 	} else if (value == 500){
 		document.getElementById("Threeslider").value = value+15
 	}  else if (value == 100){
