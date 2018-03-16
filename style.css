@@ -677,30 +677,65 @@ padding: 20px 0px 0px 0px;
 padding: 20px 0px 0px 0px;
 }
 
-/* CHECKBOX LIST */
-input[type=checkbox] {
-    float:left;
-    visibility: hidden;
-	
+/* EMOTION LIST */
+
+.ebutton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 11px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 
-label span
-{
-    background-color: grey;
-    height: 15px;
-    width: 15px;
-    float:left;
-    padding: 0 0 0 0px;
-    margin-right: 5px
+.ebutton1 {
+    background-color: white; 
+    color: purple; 
+    border: 2px solid purple;
 }
-input[type=checkbox]:checked + label span
-{
-    background-color: purple;
-    height: 15px;
-    width: 15px;
-    float:left;
-    padding: 0 0 0 0px;
+
+.ebutton1:hover {
+    background-color:purple;
+    color: white;
 }
+
+.ebutton2 {
+    background-color: white; 
+    color: purple; 
+    border: 2px solid purple
+}
+
+.ebutton2:hover {
+    background-color:purple;
+    color: white;
+}
+
+.ebutton3 {
+    background-color: white; 
+    color: purple; 
+    border: 2px solid purple
+}
+
+.ebutton3:hover {
+    background-color:purple;
+    color: white;
+}
+
+.ebutton4 {
+    background-color: white;
+    color: purple; 
+    border: 2px solid purple
+}
+
+.ebutton4:hover {background-color:purple;
+color:white;}
+
 
 
 
