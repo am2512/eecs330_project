@@ -50,6 +50,7 @@ button:hover {
 .container {
     padding: 10px;
     width: 400px;
+    border-radius: 25px;
     
     margin-left: auto;
     margin-right: auto;
