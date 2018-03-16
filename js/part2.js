@@ -241,27 +241,27 @@ myBarChart = new Chart(document.getElementById("bar-chart"), {
   });
  }
 function setActiveTwo(id) {
-  document.getElementById(id).style.backgroundColor = "#FFFFFF"
-    document.getElementById(id).style.color = "#a580bf"
+  document.getElementById(id).style.backgroundColor = "#a580bf"
+    document.getElementById(id).style.color = "#FFFFFF"
   document.getElementById(id).setAttribute('data-button', '7')
   if (id === "button-0-1") {
       console.log('here')
-      document.getElementById("button-1-1").style.backgroundColor = "#a580bf"
-      document.getElementById("button-1-1").style.color = "#FFFFFF"
-      document.getElementById("button-2-1").style.backgroundColor = "#a580bf"
-      document.getElementById("button-2-1").style.color = "#FFFFFF"
+      document.getElementById("button-1-1").style.backgroundColor = "#FFFFFF"
+      document.getElementById("button-1-1").style.color = "#a580bf"
+      document.getElementById("button-2-1").style.backgroundColor = "#FFFFFF"
+      document.getElementById("button-2-1").style.color = "#a580bf"
   } else if (id === "button-1-1"){
       console.log('hesdre')
-      document.getElementById("button-0-1").style.backgroundColor = "#a580bf"
-      document.getElementById("button-0-1").style.color = "#FFFFFF"
-      document.getElementById("button-2-1").style.backgroundColor = "#a580bf"
-      document.getElementById("button-2-1").style.color = "#FFFFFF"
+      document.getElementById("button-0-1").style.backgroundColor = "#FFFFFF"
+      document.getElementById("button-0-1").style.color = "#a580bf"
+      document.getElementById("button-2-1").style.backgroundColor = "#FFFFFF"
+      document.getElementById("button-2-1").style.color = "#a580bf"
   } else {
       console.log('afshere')
-      document.getElementById("button-0-1").style.backgroundColor = "#a580bf"
-      document.getElementById("button-0-1").style.color = "#FFFFFF"
-      document.getElementById("button-1-1").style.backgroundColor = "#a580bf"
-      document.getElementById("button-1-1").style.color = "#FFFFFF"
+      document.getElementById("button-0-1").style.backgroundColor = "#FFFFFF"
+      document.getElementById("button-0-1").style.color = "#a580bf"
+      document.getElementById("button-1-1").style.backgroundColor = "#FFFFFF"
+      document.getElementById("button-1-1").style.color = "#a580bf"
   }
  setAll();
  return 0;
