@@ -687,9 +687,9 @@ padding: 20px 0px 0px 0px;
 /* EMOTION LIST */
 
 .ebutton {
-    background-color: #a580bf; /* Green */
+    background-color: white; /* Green */
     border: none;
-    color: white;
+    color: #a580bf;
     padding: 11px 46px;
     text-align: center;
     text-decoration: none;
