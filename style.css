@@ -286,7 +286,7 @@ body {
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
-  padding: 20px 0px 20px 110px;
+  padding: 20px 0px 20px 114;
   font-size: 28px;
   text-shadow: 2px 2px #e6d8fc;
 }
@@ -643,24 +643,23 @@ width:3em;
 }
 
 #emotion-labels {
-width:300px;
+width:500px;
 float:left;
 padding-left:300px;
+font-size:15px;
 	
 }	
 #emotion_header {
 float:left;
-width:500px;
+width:600px;
+height:300px;
 }
 
-#after li {
-    float: left;
-    padding: 5px;
-}
+
 
 /* Submit button */
 #submit_button {
-width=100%;
+width=1000px;
 }
 
 
