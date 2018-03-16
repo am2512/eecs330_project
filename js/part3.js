@@ -60,7 +60,9 @@ function changeText() {
 	
 	// WE MIGHT NEED THIS DEPENGIND ON HOW IT LOOKS ON AHALYA'S
 	if  else if (value == 400){
-		document.getElementById("Threeslider").value = value+5
+		console.log("at 400");
+		console.log(value+200);
+		document.getElementById("Threeslider").value = value+200
 	} else if (value == 500){
 		document.getElementById("Threeslider").value = value+10
 	}  else if (value == 100){
