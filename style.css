@@ -679,7 +679,7 @@ padding: 20px 0px 0px 0px;
 
 /* CHECKBOX LIST */
 input[type=checkbox] {
-    display:block;
+    display:inline-block;
     visibility: hidden;
 }
 
