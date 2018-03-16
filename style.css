@@ -286,7 +286,7 @@ body {
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
-  padding: 20px 0px 20px 114;
+  padding: 20px 0px 20px 114px;
   font-size: 28px;
   text-shadow: 2px 2px #e6d8fc;
 }
@@ -659,6 +659,7 @@ height:300px;
 
 /* Submit button */
 #submit_button {
+padding-top:150px;
 width:1000px;
 }
 
