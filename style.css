@@ -679,7 +679,7 @@ padding: 20px 0px 0px 0px;
 
 /* CHECKBOX LIST */
 input[type=checkbox] {
-    display:block;
+    float:left;
     visibility: hidden;
 	
 }
@@ -689,7 +689,7 @@ label span
     background-color: grey;
     height: 15px;
     width: 15px;
-    display:block;
+    float:left;
     padding: 0 0 0 0px;
     margin-right: 5px
 }
@@ -698,7 +698,7 @@ input[type=checkbox]:checked + label span
     background-color: purple;
     height: 15px;
     width: 15px;
-    display:block;
+    float:left;
     padding: 0 0 0 0px;
 }
 
