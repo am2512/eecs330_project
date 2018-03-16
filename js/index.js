@@ -36,6 +36,10 @@ toggle between hiding and showing the dropdown content */
 function myFunction() {
     console.log('as');
     document.getElementById("myDropdown").classList.toggle("show");
+    var doc =  document.getElementById("question1Input").dataset.binary;
+    if (doc === "0"){
+      document.getElementById("question1Input").dataset.binary = "1"
+    }
     console.log('as');
 }
 
@@ -52,7 +56,13 @@ window.onclick = function(event) {
         openDropdown.classList.remove('show');
       }
     }
-    var x = document.getElementById("myRange");
+    document.getElementById("myRange").style.display = "block"
+    document.getElementById("question1Input").dataset.binary = "0";
+//     if (doc === "1"){
+      
+//       document.getElementById("question1Input").dataset.binary = "1"
+//     }
+//     var x = document.getElementById("myRange");
 //     if (x.style.display === "none") {
 //         console.log(x.style.display)
 //         x.style.display = "block";
@@ -60,6 +70,9 @@ window.onclick = function(event) {
 //         console.log(x.style.display)
 //         x.style.display = "none";
 //     }
+  } else {
+    document.getElementById("myRange").style.display = "none"
+    document.getElementById("question1Input").dataset.binary = "1";
   }
 }
 
