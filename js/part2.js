@@ -3,7 +3,7 @@ toggle between hiding and showing the dropdown content */
 
 // data-old-value="300" 
 // document.getElementById("Twoslider").dataset.binaryString = '1111'
-
+document.getElementById("button-1-1").style.backgroundColor = "#D9F1FE"
 var globalLabels = ["Playing Piano", "Meditation", "Homework", "Working Out"]
 var globalBackgroundColors = ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"]
 var globalData = [.5,2,6,5]
@@ -97,13 +97,13 @@ function setAll() {
   lineLabels = []
   if (document.getElementById("button-0-1").style.backgroundColor === "#D9F1FE"){
       counter = 24
-      lineLabels = xAxisLabels[0]
+      lineLabels = xAxisLine[0]
   } else if (document.getElementById("button-1-1").style.backgroundColor === "#D9F1FE"){
       counter = 7
-      lineLabels = xAxisLabels[1]
+      lineLabels = xAxisLine[1]
   } else {
       counter = 28
-      lineLabels = xAxisLabels[2]
+      lineLabels = xAxisLine[2]
   }
   localLineData = []
   var j = 0
