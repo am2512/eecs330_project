@@ -7,6 +7,11 @@ toggle between hiding and showing the dropdown content */
 var globalLabels = ["Playing Piano", "Meditation", "Homework", "Working Out"]
 var globalBackgroundColors = ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"]
 var globalData = [.5,2,6,5]
+var xAxisLine = [
+    ["12:00AM","1:00AM","2:00AM","3:00AM","4:00AM","5:00AM","6:00AM","7:00AM","8:00AM","9:00AM","10:00AM","11:00AM","12:00PM","1:00PM","2:00PM","3:00PM","4:00PM","5:00PM","6:00PM","7:00PM","8:00PM","9:00PM","10:00PM","11:00PM"],
+    ["Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28"],
+    ["Feb 1","Feb 2","Feb 3","Feb 4","Feb 5","Feb 6","Feb 7","Feb 8","Feb 9","Feb 10","Feb 11", "Feb 12"."Feb 13","Feb 14","Feb 15","Feb 16","Feb 17","Feb 18","Feb 19", "Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27", "Feb 28"]
+]
 
 
 myBarChart = new Chart(document.getElementById("bar-chart"), {
@@ -46,24 +51,24 @@ myBarChart = new Chart(document.getElementById("bar-chart"), {
 myLineChart = new Chart(document.getElementById("line-chart"), {
   type: 'line',
   data: {
-    labels: [1,2,3,4,5,6,7,8,9,10],
+    labels: xAxisLine[1],
     datasets: [{ 
-        data: [1,1,1,1,2,6,7,8,7,1],
+        data: [1,1,1,1,2,6,7],
         label: "Playing Piano",
         borderColor: "#3e95cd",
         fill: false
       }, { 
-        data: [3,3,4,8,9,2,1,4,6,1],
+        data: [3,3,4,8,9,2,1],
         label: "Meditation",
         borderColor: "#8e5ea2",
         fill: false
       }, { 
-        data: [1,3,3,9,9,7,6,1,1,1],
+        data: [1,3,3,9,9,7,6],
         label: "Homework",
         borderColor: "#3cba9f",
         fill: false
       }, { 
-        data: [4,5,2,7,8,1,1,1,1,1],
+        data: [4,5,2,7,8,1,1],
         label: "Working Out",
         borderColor: "#e8c3b9",
         fill: false
@@ -79,15 +84,41 @@ myLineChart = new Chart(document.getElementById("line-chart"), {
 });
 document.getElementById("button-0-1").dataset.binaryString = '1111'
 var lineData = [
-  [1,1,1,1,2,6,7,8,7,1],
-  [3,3,4,8,9,2,1,4,6,1],
-  [1,3,3,9,9,7,6,1,1,1],
-  [4,5,2,7,8,1,1,1,1,1]
+  [1,1,1,1,2,6,7,8,7,1,3,3,4,8,9,2,1,4,6,14,5,2,7,8,1,1,1],
+  [2,7,8,1,1,1,1,13,3,4,8,9,2,1,4,6,1,1,3,3,9,9,7,6,1,1,1],
+  [1,3,3,9,9,7,6,1,1,1,4,5,2,7,8,1,1,1,1,1,3,4,5,6,7,8,9,0],
+  [4,5,2,7,8,1,1,1,1,1,3,5,7,9,4,7,8,0,1,3,4,8,5,3,8,9,2,6]
 ]
 
 function setAll() {
 
-console.log('hey');
+    
+  counter = 0
+  lineLabels = []
+  if (document.getElementById("button-0-1").style.backgroundColor === "#D9F1FE"){
+      counter = 24
+      lineLabels = xAxisLabels[0]
+  } else if (document.getElementById("button-1-1").style.backgroundColor === "#D9F1FE"){
+      counter = 7
+      lineLabels = xAxisLabels[1]
+  } else {
+      counter = 28
+      lineLabels = xAxisLabels[2]
+  }
+  localLineData []
+  var j = 0
+  var k = 0
+  for (j:j<4:j++) {
+      k = 0
+      localLineData.push([])
+      while(k<counter) {
+          localLineData[j].push(lineData[k])
+          k = k+1
+      }
+  }
+    
+    
+  console.log('hey');
   myBarChart.destroy()
   myLineChart.destroy()
   localDataSets = []
@@ -98,7 +129,7 @@ console.log('hey');
     if ('1' == binaryString.charAt(i)) {
       localDataSets.push(
         {
-          data: lineData[i],
+          data: localLineData[i],
           label: globalLabels[i],
           borderColor: globalBackgroundColors[i],
           fill: false
@@ -116,7 +147,7 @@ console.log('hey');
   myLineChart = new Chart(document.getElementById("line-chart"), {
     type: 'line',
     data: {
-      labels: [1500,1600,1700,1750,1800,1950,1999,2050],
+      labels: lineLabels,
       datasets: localDataSets
     },
     options: {
