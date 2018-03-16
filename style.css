@@ -150,14 +150,14 @@ body {
     border-width: medium;
     border-color: black;
     height: 50%;
-    width: 20%;
+    width: 40%;
     margin: 25px 2.25% 0px 2.25%;
     padding: 0px 0% 0px 0%;
     font-family: 'Kalam', cursive;
-    font-size: 30px;
+    font-size: 40px;
     /*border: 0px;*/
     color: black;
-    background-color: #8a8b9b;
+    background-color: white;
     /*background-color: #A5F9FF;*/
     border-radius: 4px;
 }
