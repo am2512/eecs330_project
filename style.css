@@ -648,7 +648,8 @@ padding-left:200px;
 
 /* Submit button */
 .submit_wrapper {
-margin:auto;
+display:table;
+margin: 0 auto;
 }
 
 
