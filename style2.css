@@ -37,9 +37,10 @@ body {
 
 .displaySlider {
     box-shadow: 5px 10px 12px #888888;
-    margin-left: 90px;
-    margin-right: 60px;
+    margin-left: 190px;
+    margin-right: 160px;
     font-family: 'Nunito', sans-serif;
+    font-size:22px;
 }
 
 /*new*/
