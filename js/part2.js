@@ -211,10 +211,10 @@ function setActive(id) {
 
   console.log(data)
   if (data == "0") {
-    element.style.backgroundColor = "#e84563"
+    element.style.backgroundColor = "#D9F1FE"
     element.setAttribute('data-button', '7');
   } else {
-    element.style.backgroundColor = "#4f8cef"
+    element.style.backgroundColor = "##0078D1"
     console.log('asf')
     element.setAttribute('data-button', '0');
   }
