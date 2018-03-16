@@ -105,7 +105,7 @@ function setAll() {
       counter = 28
       lineLabels = xAxisLabels[2]
   }
-  localLineData []
+  localLineData = []
   var j = 0
   var k = 0
   for (j:j<4:j++) {
