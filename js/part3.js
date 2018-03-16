@@ -64,10 +64,10 @@ function changeText() {
 		console.log(value+200);
 		document.getElementById("Threeslider").value = value+5
 	} else if (value == 500){
-		document.getElementById("Threeslider").value = value+13
+		document.getElementById("Threeslider").value = value+11
 	}  else if (value == 100){
-		console.log('thirteen')
-		document.getElementById("Threeslider").value = value-13
+		console.log('eleven')
+		document.getElementById("Threeslider").value = value-11
 	} else if (value == 200){
 		document.getElementById("Threeslider").value = value-5
 	}else {
