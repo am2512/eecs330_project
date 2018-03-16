@@ -333,7 +333,7 @@ body {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 350px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -651,7 +651,7 @@ font-size:16px;
 }	
 #emotion_header {
 float:left;
-text-align:left;
+text-align:right;
 width:600px;
 height:300px;
 }
