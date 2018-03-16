@@ -242,15 +242,21 @@ function setActiveTwo(id) {
   if (id === "button-0-1") {
       console.log('here')
       document.getElementById("button-1-1").style.backgroundColor = "#800080"
+      document.getElementById("button-1-1").style.color = "#FFFFFF"
       document.getElementById("button-2-1").style.backgroundColor = "#800080"
+      document.getElementById("button-2-1").style.color = "#FFFFFF"
   } else if (id === "button-1-1"){
       console.log('hesdre')
       document.getElementById("button-0-1").style.backgroundColor = "#800080"
-      document.getElementById("button-2-1").style.backgroundColor = "#800080"      
+      document.getElementById("button-0-1").style.color = "#FFFFFF"
+      document.getElementById("button-2-1").style.backgroundColor = "#800080"
+      document.getElementById("button-2-1").style.color = "#FFFFFF"
   } else {
       console.log('afshere')
       document.getElementById("button-0-1").style.backgroundColor = "#800080"
-      document.getElementById("button-1-1").style.backgroundColor = "#800080"   
+      document.getElementById("button-0-1").style.color = "#FFFFFF"
+      document.getElementById("button-1-1").style.backgroundColor = "#800080"
+      document.getElementById("button-1-1").style.color = "#FFFFFF"
   }
  setAll();
  return 0;
