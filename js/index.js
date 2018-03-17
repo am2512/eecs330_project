@@ -104,10 +104,14 @@ function submitTask() {
 }
 
 function resetInputs() {
-  document.getElementById("question1Input").value = "Select an existing category or type in a new one"
+  document.getElementById("question1Input").value = ""
+  document.getElementById("question1Input").placeholder = "Select an existing category or type in a new one"
   document.getElementById("myRange").value = 5
-  document.getElementById("duration-val1").value = "00:00"
-  document.getElementById("duration-val2").value = "00:00"
+  document.getElementById("duration-val1").value = ""
+  document.getElementById("duration-val1").placeholder = "hh:mm"
+  document.getElementById("duration-val2").value = ""
+  document.getElementById("duration-val2").placeholder = "hh:mm"
+
   // This can probably be improved by using the .activitiesButton.color attribute
   // set in style.css, rather than the magic value #ccffff, but I don't know
   // how to do that yet
